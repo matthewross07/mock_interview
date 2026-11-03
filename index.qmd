@@ -3,49 +3,109 @@ title: "Mock Interview Panel"
 subtitle: "Interview for a real Colorado job as yourself, then sit on the hiring panel for your classmates."
 ---
 
-::: lead-box
-**The short version.** You'll work in a **pod of about 4** (usually 4, sometimes 3 or 5). Each person gets one turn in the **hot seat**, interviewing *as themselves* for a real job from the [Job Board](jobs.qmd). Everyone else in the pod plays the hiring panel. Each panelist plays one of [the panel's characters](panel.qmd), asks questions written for *that specific job*, and draws a secret "mood card" (a small detail about their day), because real interviewers are people too. After every round, the pod rotates. By the end you'll have been the candidate once and played each panel seat once.
+```{=html}
+<div class="steps">
+  <div class="step"><div class="num">1</div><h3>Pick a job</h3><p>Choose a real Colorado posting from the <a href="jobs.html">Job Board</a> and prep a short pitch.</p></div>
+  <div class="step"><div class="num">2</div><h3>Interview for ~7 minutes</h3><p>Your pod of about 4 plays the hiring panel. You answer as yourself.</p></div>
+  <div class="step"><div class="num">3</div><h3>Rotate</h3><p>Then you join the panel for everyone else. Each panelist plays a <a href="panel.html">character</a>.</p></div>
+</div>
+```
 
-Nothing to print. Everything is on this site, so open it on your phone or laptop.
-:::
+Nothing to print. Everything is on this site, on your phone or laptop.
 
 ::: {.callout-tip}
 ## Online student?
-Same jobs, same panel, on your own schedule. Your pod gets **two weeks** to self-schedule one live video call, with an asynchronous video option if you can't find a time. See [Online Students](online.qmd).
+Same activity on your own schedule. Your pod has two weeks to find one hour together, and there's a video option if you can't. See [Online Students](online.qmd).
 :::
 
-## Before class (about 30–45 minutes)
+## Before class
 
-1. **Browse the [Job Board](jobs.qmd)** and pick a **first choice** and a **backup**. It's fine if a podmate picks the same job.
-2. **Open the real posting** (each job page links to it). Find the 3 qualifications the employer seems to care about most. For each one, jot down a real example from your coursework, internship, research, or past jobs.
-3. **Post the [Pre-Class Discussion](discussion.qmd)**: why you picked this job, and whether you could apply for it right now.
-4. **Draft a 60-second pitch** (see the formula below). Your discussion post is a good start on it. Say it out loud at least once. Don't memorize it word for word.
-5. **Write one question to ask the panel.** Make it a question you'd actually want answered, not one designed to impress.
-6. **Bring a charged device.** During other people's rounds, you'll open *their* job page to find your panel questions.
+About 30–45 minutes.
 
-When you prep, read your job page only down to **Know the employer**. The **Interview room** below that is for the panel. Not knowing the exact questions is part of the practice.
+1. **Pick a job** on the [Job Board](jobs.qmd), plus a backup. It's fine if a podmate picks the same one.
+2. **Read the real posting** (linked on each job page). Find their top 3 must-haves, and jot down a real example of yours for each.
+3. **Post the [Pre-Class Discussion](discussion.qmd):** why this job, and could you apply now?
+4. **Practice a 60-second pitch** out loud. Use the toolkit below.
+5. **Write one question** you'd genuinely want to ask the panel.
+6. **Bring a charged device.**
 
-You'll be interviewing **as yourself**, so use your real background. Gaps are fine. Handling a gap honestly is one of the skills you're practicing.
+::: {.callout-important appearance="simple"}
+**On your own job's page, stop at "Know the employer."** The Interview room below that is for the panel. Not knowing the questions is part of the practice.
+:::
 
-## In class: how a round works
+## In class
 
-Each round is **10 minutes**, so a pod of 4 finishes in 40 minutes and a pod of 5 in 50. The [Timer](timer.qmd) runs at the front of the room, and you can open it on your own device. It shows the current phase and which seat is the candidate.
+Each round takes **10 minutes**, and the [Timer](timer.qmd) keeps every pod in step.
 
-| Phase | Time | What happens |
-|---|---|---|
-| **Set up** | 1 min | Rotate seats. The candidate names their job. Panelists open **that job's page** on the [Job Board](jobs.qmd), scroll to the **Interview room**, open **only their own seat**, and **draw a mood card**. |
-| **Pitch** | 1 min | The candidate gives their 60-second pitch: who they are, why this role, one proof point. The panel just listens. |
-| **Panel questions** | 5 min | Panelists go in seat order (A → B → C). Each asks **one** of their seat's questions for this job, in character, and then follows up in their character's style. |
-| **Candidate asks** | 1 min | The candidate asks their prepared question. The panel answers in character, and it's fine to make things up. |
-| **Debrief** | 2 min | **Drop character.** Each panelist gives three quick notes, one sentence each (see the debrief section below). The candidate mostly listens and says "thank you." |
+| Time | What happens |
+|---|---|
+| **1 min · Set up** | The candidate names their job. Panelists open **that job's page**, scroll to the **Interview room**, open **their own seat**, and draw a mood card. |
+| **1 min · Pitch** | The candidate gives their 60-second pitch. The panel listens. |
+| **5 min · Questions** | Each panelist, in seat order, asks one question in character and follows up. |
+| **1 min · Your question** | The candidate asks the panel their question. |
+| **2 min · Debrief** | Everyone drops character. Each panelist gives three one-line notes (below). |
 
-Then **rotate** and start the next round. You'll spend about 7 minutes in the hot seat. That's short, but real first-round screens are often only 15–20 minutes.
+Then rotate to the next person.
 
-## Who sits where (rotation)
+## What's my seat? {#who-sits-where-rotation}
 
-Number off around the pod (**1, 2, 3, …**), then use the table for your pod's size. Find your number in it. Each row is a round, and in each round you either interview or play the seat shown.
+Number off around your pod (1, 2, 3, …). Then pick your pod size and your number:
 
-**Pod of 4:** Seats A, B, and C.
+```{=html}
+<div class="seat-picker" id="seat-picker">
+  <div><span class="row-label">Pod size</span>
+    <div class="btn-group" role="group" aria-label="Pod size" id="sp-size"></div></div>
+  <div><span class="row-label">I'm number</span>
+    <div class="btn-group" role="group" aria-label="Your number" id="sp-num"></div></div>
+  <ol id="sp-out" aria-live="polite"></ol>
+</div>
+<script>
+(function () {
+  const NAMES = {
+    "A": "Seat A · Riley, the Technical Lead",
+    "B": "Seat B · Pat, Search Committee Chair",
+    "C": "Seat C · Morgan, the Team & Mission Lead",
+    "D": "Seat D · Dale, the Outside Stakeholder",
+    "A+B": "Seat A+B · Riley-Pat, the Hiring Manager"
+  };
+  const roles = n => n === 3 ? ["Candidate", "A+B", "C"] : ["Candidate", "A", "B", "C", "D"].slice(0, n);
+  let size = 4, me = 1;
+  try { size = Number(localStorage.getItem("sp-size")) || 4; me = Number(localStorage.getItem("sp-num")) || 1; } catch (e) {}
+  const $ = id => document.getElementById(id);
+
+  function buttons(el, values, current, onPick) {
+    el.innerHTML = "";
+    values.forEach(v => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "btn btn-sm " + (v === current ? "btn-primary" : "btn-outline-primary");
+      b.textContent = v;
+      b.setAttribute("aria-pressed", String(v === current));
+      b.addEventListener("click", () => onPick(v));
+      el.appendChild(b);
+    });
+  }
+
+  function render() {
+    if (me > size) me = size;
+    try { localStorage.setItem("sp-size", size); localStorage.setItem("sp-num", me); } catch (e) {}
+    buttons($("sp-size"), [3, 4, 5], size, v => { size = v; render(); });
+    buttons($("sp-num"), Array.from({ length: size }, (_, i) => i + 1), me, v => { me = v; render(); });
+    const r = roles(size);
+    $("sp-out").innerHTML = Array.from({ length: size }, (_, i) => {
+      const role = r[((me - (i + 1)) % size + size) % size];
+      const cand = role === "Candidate";
+      return `<li class="${cand ? "cand" : ""}"><span class="r">Round ${i + 1}</span><span>${cand ? "<b>You're the candidate</b>" : NAMES[role]}</span></li>`;
+    }).join("");
+  }
+  render();
+})();
+</script>
+```
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Show all rotation tables
+**Pod of 4**
 
 | Round | Person 1 | Person 2 | Person 3 | Person 4 |
 |:-:|:-:|:-:|:-:|:-:|
@@ -54,7 +114,7 @@ Number off around the pod (**1, 2, 3, …**), then use the table for your pod's 
 | 3 | B | C | **Candidate** | A |
 | 4 | A | B | C | **Candidate** |
 
-**Pod of 5:** Add Seat D, the outside stakeholder.
+**Pod of 5** (adds Seat D)
 
 | Round | P1 | P2 | P3 | P4 | P5 |
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -64,46 +124,49 @@ Number off around the pod (**1, 2, 3, …**), then use the table for your pod's 
 | 4 | B | C | D | **Candidate** | A |
 | 5 | A | B | C | D | **Candidate** |
 
-**Pod of 3:** One person plays A and B combined (a "Hiring Manager"), and the other plays C.
+**Pod of 3** (one person plays A+B)
 
 | Round | P1 | P2 | P3 |
 |:-:|:-:|:-:|:-:|
 | 1 | **Candidate** | A+B | C |
 | 2 | C | **Candidate** | A+B |
 | 3 | A+B | C | **Candidate** |
+:::
 
-## Toolkit for the hot seat
+## Debrief: three one-liners
 
-**The 60-second pitch formula**
+When the debrief starts, drop character. Each panelist says:
 
-> *"I'm [name], and I [what you do / your focus] — most recently [one concrete thing you built, analyzed, or managed]. I'm interested in [this role] at [this employer] because [something specific from the posting or their work]. What I'd bring is [the one or two skills that match their top needs]."*
+1. **Hired-peer moment:** when they sounded like a colleague you'd want.
+2. **Hedge moment:** when they rambled, hedged, or sounded like a seminar.
+3. **One thing to try** next time.
 
-**STAR for behavioral questions** ("Tell me about a time…")
+Be specific ("When you walked through cleaning the streamflow data, I believed you") rather than general ("Good job!").
 
-- **S**ituation: one or two sentences of context.
-- **T**ask: what *you* were responsible for.
-- **A**ction: what *you* did. Spend most of your time here and say "I," not "we."
-- **R**esult: what happened, with a number if you have one, and what you learned.
+## Candidate toolkit
 
-**When you don't know something**
+::: {.callout-note collapse="true" appearance="simple"}
+## 60-second pitch formula
+> *"I'm [name], and I [your focus]. Most recently I [one concrete thing you built, analyzed, or managed]. I'm interested in [this role] at [this employer] because [something specific from the posting]. I'd bring [the one or two skills they need most]."*
+:::
 
+::: {.callout-note collapse="true" appearance="simple"}
+## STAR for "Tell me about a time…"
+- **Situation:** one or two sentences of context.
+- **Task:** what *you* were responsible for.
+- **Action:** what *you* did. Spend most of your time here, and say "I," not "we."
+- **Result:** what happened (with a number if you have one) and what you learned.
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## When you don't know something
 > *"I haven't used [X] directly. The closest thing I've done is [Y], where I [specific]. Here's how I'd get up to speed on [X]…"*
 
-This beats bluffing every time, and Seat A *will* notice a bluff.
-
-## Debrief: how to give feedback
-
-When the debrief phase starts, **drop character**. Each panelist gives three quick notes:
-
-1. **Hired-peer moment:** one moment when the candidate sounded like a colleague you'd want on your team.
-2. **Hedge or too-academic moment:** one moment when they hedged, rambled, or answered like it was a seminar instead of a job.
-3. **One thing to try:** one specific, doable change for next time.
-
-Be specific ("When you described cleaning the streamflow data, I believed you") rather than general ("Good job!"). Keep it kind, honest, and quick, because you only have two minutes. If your mood card affected the interview, say what it was. How they handled it is useful feedback too.
+This beats bluffing every time.
+:::
 
 ## Ground rules
 
-- **Tough but fair.** Your seat is there to give the candidate realistic practice, not to "win."
-- **No illegal questions.** Real interviewers can't ask about age, marital or family status, pregnancy, religion, national origin, disability, or similar topics, and neither can you, even in character.
-- **Stay in character** until the debrief. Then fully step out of it.
-- **Stumbling is the point.** It's much better to freeze here than in a real interview.
+- **Tough but fair.** The point is realistic practice, not "winning."
+- **No illegal questions,** even in character: nothing about age, family, pregnancy, religion, national origin, or disability.
+- **Stumbling is the point.** Better to freeze here than in a real interview.

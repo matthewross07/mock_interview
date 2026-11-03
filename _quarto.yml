@@ -15,18 +15,18 @@ website:
       - href: index.qmd
         text: Instructions
       - href: discussion.qmd
-        text: Pre-Class Discussion
+        text: Prep Post
       - href: jobs.qmd
         text: Job Board
       - href: panel.qmd
-        text: Meet the Panel
+        text: The Panel
       - href: timer.qmd
         text: Timer
       - href: online.qmd
-        text: Online Students
+        text: Online
     right:
       - href: about.qmd
-        text: About & AI Disclosure
+        text: About & AI
   page-footer:
     left: "Professional Science Master's · Ecosystem Science & Sustainability · Colorado State University"
     right:
@@ -38,6 +38,7 @@ format:
     theme:
       light: [cosmo, styles/theme.scss]
       dark: [darkly, styles/theme-dark.scss]
+    css: styles/site.css
     toc: true
     toc-depth: 2
     # Quarto's default body column is ~800px; widen it so pages use the screen.

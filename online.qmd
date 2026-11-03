@@ -5,7 +5,7 @@ subtitle: "Same jobs, same panel characters, same feedback, on your own schedule
 
 You'll be in a **pod of about 4 classmates** (usually 4, sometimes 3 or 5), set up as a group in Canvas. Your pod has **two weeks** to finish. The dates are in Canvas.
 
-Start with the same [before-class prep](index.qmd#before-class-about-3045-minutes) as everyone else, including the [Pre-Class Discussion](discussion.qmd) post, and do it **before your pod meets**. Then pick the option your pod can make work. In both, panelists get their questions from the **Interview room** on the candidate's job page (see [Meet the Panel](panel.qmd)).
+Start with the same [before-class prep](index.qmd#before-class) as everyone else, including the [Pre-Class Discussion](discussion.qmd) post, and do it **before your pod meets**. Then pick the option your pod can make work. In both, panelists get their questions from the **Interview room** on the candidate's job page (see [Meet the Panel](panel.qmd)).
 
 ::: {.panel-tabset}
 

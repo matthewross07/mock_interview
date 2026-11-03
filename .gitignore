@@ -6,3 +6,7 @@ _site/
 **/*.quarto_ipynb
 
 /.quarto/
+
+# Quarto preview temp outputs
+/*.html
+/jobs/*.html

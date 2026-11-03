@@ -1,0 +1,39 @@
+/* Shared components (light + dark). Colors come from the Bootstrap theme variables. */
+
+/* "How it works" strip */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.25rem 0 1.75rem; }
+.step {
+  border: 1px solid rgba(127, 127, 127, .3);
+  border-top: 5px solid var(--bs-primary);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: var(--bs-body-bg);
+}
+.step .num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2rem; height: 2rem; border-radius: 50%;
+  background: var(--bs-primary); color: var(--bs-body-bg);
+  font-weight: 700; margin-bottom: .5rem;
+}
+.step h3 { font-size: 1.15rem; margin: 0 0 .35rem; border: 0; }
+.step p { margin: 0; font-size: .97rem; }
+@media (max-width: 700px) { .steps { grid-template-columns: 1fr; } }
+
+/* "What's my seat?" picker */
+.seat-picker {
+  border: 2px solid var(--bs-primary);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+.seat-picker .row-label { font-weight: 600; margin-right: .5rem; min-width: 6.5rem; display: inline-block; }
+.seat-picker .btn-group { flex-wrap: wrap; margin: .25rem 0; }
+.seat-picker ol { margin: .9rem 0 0; padding-left: 0; list-style: none; }
+.seat-picker li {
+  display: flex; gap: .75rem; align-items: baseline;
+  padding: .45rem .6rem; border-radius: 8px;
+}
+.seat-picker li:nth-child(odd) { background: rgba(127, 127, 127, .08); }
+.seat-picker li .r { font-weight: 700; min-width: 4.5rem; }
+.seat-picker li.cand { background: var(--bs-primary); color: var(--bs-body-bg); }
+.seat-picker li.cand .r { color: inherit; }
