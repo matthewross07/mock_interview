@@ -29,20 +29,22 @@ This README is not rendered to the site.
 quarto preview
 ```
 
-## Publish to GitHub Pages (when ready)
+## Where this lives
 
-Google Drive and `.git` folders don't get along well, so it's safer to keep the git repo in a regular local folder (e.g. `~/git/mock_interview`) and copy or move these files there.
+Work from the local clone at `~/Developer/mock_interview`. **Don't keep it in Google Drive.** Quarto's Sass cache (in `.quarto/`) gets corrupted on Drive's synced file system, and the preview then crashes with `BadResource: Bad resource ID`.
 
-One-time setup:
+## Publish to GitHub Pages
+
+The site is live at <https://matthewross07.github.io/mock_interview/>. To update it after editing:
 
 ```bash
-git init && git add . && git commit -m "Mock interview site"
-gh repo create mock_interview --public --source=. --push
+git add -A && git commit -m "Describe the change" && git push
 quarto publish gh-pages
 ```
 
-After that, edit and run `quarto publish gh-pages` again whenever you want to update the site.
-It'll be live at <https://matthewross07.github.io/mock_interview/>. If you use a different repo name, change `site-url` in `_quarto.yml`.
+Stop `quarto preview` before publishing so the two renders don't collide.
+
+**Revert:** the first live version is tagged `v1.0`. To republish an older version, run `git switch --detach v1.0 && quarto publish gh-pages`, then `git switch main`.
 
 ## Running it in class
 
