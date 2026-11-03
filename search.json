@@ -4,14 +4,14 @@
     "href": "timer.html",
     "title": "Round Timer",
     "section": "",
-    "text": "TipHow this timer stays in sync\n\n\n\n\n\nPressing Start now puts the start time in the page link. Anyone who opens that link (via the QR code, a video-call chat, or Canvas) sees the same phase and countdown, because the timer runs off each device’s clock instead of a shared screen. Every pod rotates together without anyone calling time.\n\nPods of mixed sizes? Set the pod size to the largest pod. Smaller pods finish early and go on to the Discussion.\nSound: each device has to turn on the chime once, because browsers block sound until you click something.\n\n\n\n\n\n\n\n  \n    Pod size\n      \n        345\n      \n    Start now\n    or start at\n      \n      Set\n    🔕 Chime off\n    ⛶ Full screen\n    Reset\n  \n\n  \n    Not started\n    Ready\n    --:--\n    Instructor: choose the pod size, then press Start now and share the link or QR code.\n    \n    \n    \n  \n\n  \n    \n    \n      Join this timer: scan the code or open\n      \n      Copy link\n      Copied ✓"
+    "text": "TipHow this timer stays in sync\n\n\n\n\n\nPressing Start now puts the start time in the page link. Anyone who opens that link (via the QR code, a video-call chat, or Canvas) sees the same phase and countdown, because the timer runs off each device’s clock instead of a shared screen. Every pod rotates together without anyone calling time.\n\nPods of mixed sizes? Set the pod size to the largest pod. Smaller pods finish early and can swap one more round of feedback.\nSound: each device has to turn on the chime once, because browsers block sound until you click something.\n\n\n\n\n\n\n\n  \n    Pod size\n      \n        345\n      \n    Start now\n    or start at\n      \n      Set\n    🔕 Chime off\n    ⛶ Full screen\n    Reset\n  \n\n  \n    Not started\n    Ready\n    --:--\n    Instructor: choose the pod size, then press Start now and share the link or QR code.\n    \n    \n    \n  \n\n  \n    \n    \n      Join this timer: scan the code or open\n      \n      Copy link\n      Copied ✓"
   },
   {
     "objectID": "online.html",
     "href": "online.html",
     "title": "Online Students",
     "section": "",
-    "text": "You’ll be in a pod of about 4 classmates (usually 4, sometimes 3 or 5), set up as a group in Canvas. Your pod has two weeks to finish. The dates are in Canvas.\nStart with the same before-class prep as everyone else. Then pick the option your pod can make work. In both, panelists get their questions from the Interview room on the candidate’s job page (see Meet the Panel), and both end with the Discussion."
+    "text": "You’ll be in a pod of about 4 classmates (usually 4, sometimes 3 or 5), set up as a group in Canvas. Your pod has two weeks to finish. The dates are in Canvas.\nStart with the same before-class prep as everyone else, including the Pre-Class Discussion post, and do it before your pod meets. Then pick the option your pod can make work. In both, panelists get their questions from the Interview room on the candidate’s job page (see Meet the Panel)."
   },
   {
     "objectID": "online.html#video-interview-tips",
@@ -172,7 +172,7 @@
     "href": "index.html#before-class-about-3045-minutes",
     "title": "Mock Interview Panel",
     "section": "Before class (about 30–45 minutes)",
-    "text": "Before class (about 30–45 minutes)\n\nBrowse the Job Board and pick a first choice and a backup. It’s fine if a podmate picks the same job.\nOpen the real posting (each job page links to it). Find the 3 qualifications the employer seems to care about most. For each one, jot down a real example from your coursework, internship, research, or past jobs.\nDraft a 60-second pitch (see the formula below). Say it out loud at least once. Don’t memorize it word for word.\nWrite one question to ask the panel. Make it a question you’d actually want answered, not one designed to impress.\nBring a charged device. During other people’s rounds, you’ll open their job page to find your panel questions.\n\nWhen you prep, read your job page only down to Know the employer. The Interview room below that is for the panel. Not knowing the exact questions is part of the practice.\nYou’ll be interviewing as yourself, so use your real background. Gaps are fine. Handling a gap honestly is one of the skills you’re practicing."
+    "text": "Before class (about 30–45 minutes)\n\nBrowse the Job Board and pick a first choice and a backup. It’s fine if a podmate picks the same job.\nOpen the real posting (each job page links to it). Find the 3 qualifications the employer seems to care about most. For each one, jot down a real example from your coursework, internship, research, or past jobs.\nPost the Pre-Class Discussion: why you picked this job, and whether you could apply for it right now.\nDraft a 60-second pitch (see the formula below). Your discussion post is a good start on it. Say it out loud at least once. Don’t memorize it word for word.\nWrite one question to ask the panel. Make it a question you’d actually want answered, not one designed to impress.\nBring a charged device. During other people’s rounds, you’ll open their job page to find your panel questions.\n\nWhen you prep, read your job page only down to Know the employer. The Interview room below that is for the panel. Not knowing the exact questions is part of the practice.\nYou’ll be interviewing as yourself, so use your real background. Gaps are fine. Handling a gap honestly is one of the skills you’re practicing."
   },
   {
     "objectID": "index.html#in-class-how-a-round-works",
@@ -210,13 +210,6 @@
     "text": "Ground rules\n\nTough but fair. Your seat is there to give the candidate realistic practice, not to “win.”\nNo illegal questions. Real interviewers can’t ask about age, marital or family status, pregnancy, religion, national origin, disability, or similar topics, and neither can you, even in character.\nStay in character until the debrief. Then fully step out of it.\nStumbling is the point. It’s much better to freeze here than in a real interview."
   },
   {
-    "objectID": "index.html#after-the-activity",
-    "href": "index.html#after-the-activity",
-    "title": "Mock Interview Panel",
-    "section": "After the activity",
-    "text": "After the activity\nHead to the Discussion page for the follow-up prompt."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About & AI Disclosure",
@@ -228,14 +221,14 @@
     "href": "about.html#who-made-it",
     "title": "About & AI Disclosure",
     "section": "Who made it",
-    "text": "Who made it\nMatthew R.V. Ross (Department of Ecosystem Science and Sustainability, Colorado State University) created this site for students in the Professional Science Master’s in Ecosystem Science and Sustainability. He designed the activity’s goals and constraints, directed every revision, and is responsible for the content."
+    "text": "Who made it\nMatthew R.V. Ross (Department of Ecosystem Science and Sustainability, Colorado State University) created this site for students in the Professional Science Master’s in Ecosystem Science and Sustainability. Matthew designed the activity’s goals and constraints, directed every revision, and is responsible for the content."
   },
   {
     "objectID": "about.html#how-ai-was-used",
     "href": "about.html#how-ai-was-used",
     "title": "About & AI Disclosure",
     "section": "How AI was used",
-    "text": "How AI was used\n\nConcept: the first version of the activity (rotating pods, interviewer archetypes, a paperless setup) was brainstormed with Google Gemini.\nBuilding the site: Claude Opus 5.5 (High effort) wrote the text on every page. That includes the instructions, the panel characters and mood cards, every interview question, the online options, and the discussion prompt. It also wrote the timer and mood-card code and the Quarto site configuration.\nJob postings: Claude searched public job boards for real Colorado postings that match the program’s focus areas. It opened and checked each posting on the employer’s page or a public listing, then paraphrased the duties and qualifications. Each job page links to the original.\nRevision: the instructor reviewed drafts and asked for specific changes, including tone, round timing, the online format, and questions tied to each job. Claude made those changes."
+    "text": "How AI was used\n\nConcept: the first version of the activity (rotating pods, interviewer archetypes, a paperless setup) was brainstormed with Google Gemini.\nBuilding the site: Claude Opus 5.5 (High effort) wrote the text on every page. That includes the instructions, the panel characters and mood cards, every interview question, the online options, and the pre-class discussion prompt. It also wrote the timer and mood-card code and the Quarto site configuration.\nJob postings: Claude searched public job boards for real Colorado postings that match the program’s focus areas. It opened and checked each posting on the employer’s page or a public listing, then paraphrased the duties and qualifications. Each job page links to the original.\nRevision: the instructor reviewed drafts and asked for specific changes, including tone, round timing, the online format, and questions tied to each job. Claude made those changes."
   },
   {
     "objectID": "about.html#about-the-job-postings",
@@ -254,23 +247,16 @@
   {
     "objectID": "discussion.html",
     "href": "discussion.html",
-    "title": "Discussion: The Answer I Wish I’d Given",
+    "title": "Pre-Class Discussion: Why This Job?",
     "section": "",
-    "text": "Almost everyone walks out of an interview thinking “I should have said…”. This discussion asks you to actually write that better answer, and then to use what you learned from sitting on the panel."
+    "text": "This is part of your prep. Writing it is a rehearsal for the first question almost every panel asks, “So why are you interested in this role?”, and it makes you read the real posting closely before you’re in the hot seat."
   },
   {
     "objectID": "discussion.html#your-post",
     "href": "discussion.html#your-post",
-    "title": "Discussion: The Answer I Wish I’d Given",
+    "title": "Pre-Class Discussion: Why This Job?",
     "section": "Your post",
-    "text": "Your post\n1. Rewrite one answer. Which job did you interview for, and which question gave you the most trouble? Give us the question, then write the answer you wish you’d given. Write it the way you’d say it, in about 150 words or less. Use a real example from your own experience, and make the result concrete.\n2. What the panel taught you. Which seat (A, B, C, or D) was hardest for you to play? What did sitting in that seat show you about what employers are actually listening for that you didn’t notice as the candidate?\n3. Gap → plan. Name one qualification from your job’s real posting that you can’t yet back up with a specific example. What’s one thing you’ll do in the next few months to close that gap, such as a course project, part of your internship, a portfolio piece, or a conversation with someone in that role?"
-  },
-  {
-    "objectID": "discussion.html#your-replies",
-    "href": "discussion.html#your-replies",
-    "title": "Discussion: The Answer I Wish I’d Given",
-    "section": "Your replies",
-    "text": "Your replies\nReply to two classmates, ideally people who interviewed in a different focus area from yours (for example, water vs. carbon, or food systems vs. climate risk).\nIn each reply, play a panel seat one more time. Read their rewritten answer and ask the next follow-up question that seat would ask. Then add one sentence about what makes their rewrite stronger than a typical answer."
+    "text": "Your post\nAfter you’ve picked a job from the Job Board and read the original posting, answer these two questions:\n1. Why did you pick this job? Point to one or two specific things in the posting or about the employer that drew you in, such as a duty, a skill they want, the kind of problem they work on, or where it’s located. Skip the generic “I’m passionate about sustainability” and tell us what’s specific about this job.\n2. Could you apply for it right now? Be honest. Which listed qualifications can you already back up with a specific example from coursework, an internship, research, or a past job? Which ones would take more training or experience? If there’s a gap, name one thing you could do during the PSM to close it.\nA few short paragraphs is plenty."
   },
   {
     "objectID": "jobs.html",
