@@ -1,0 +1,107 @@
+---
+# Copy this file to jobs/<short-name>.qmd and fill it in.
+# Files that start with "_" are not rendered, so this template never shows on the site.
+title: "Job Title Exactly As Posted"
+subtitle: "Employer Name"
+description: "One-line hook that shows on the Job Board card."
+categories: [Water Resources]   # Carbon Management | Water Resources | Sustainable Food Systems | Climate Adaptation & Risk | Environmental Data Science | Corporate Sustainability
+location: "City, CO (hybrid)"
+salary: "$XX,XXX – $XX,XXX"      # leave "" if not listed
+posting-url: "https://..."
+posted: "Month YYYY"
+accessed: "Month YYYY"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Duty one
+- Duty two
+- Duty three
+
+## What they're looking for
+
+- Qualification one
+- Qualification two
+- Qualification three
+
+## Know the employer
+
+One or two sentences about the organization and why the role exists.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+<!-- For each seat: say who the character is AT THIS EMPLOYER, then write 2 questions about THIS job. -->
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** (technical role at this employer)
+
+**Ask one of these:**
+
+1. "Technical question about this job?"
+2. "Another technical question about this job?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** (budget/operations role at this employer)
+
+**Ask one of these:**
+
+1. "Deadline or budget question about this job?"
+2. "Prioritization question about this job?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** (team or community role at this employer)
+
+**Ask one of these:**
+
+1. "Communication or conflict question about this job?"
+2. "Explain-it-simply or behavioral question about this job?"
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** (an outside person this hire would work with, e.g., a supplier, producer, or council member)
+
+**Ask one of these:**
+
+1. "Skeptical stakeholder question?"
+2. "Another skeptical stakeholder question?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

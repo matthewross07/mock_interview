@@ -1,0 +1,20 @@
+---
+title: "Job Board"
+subtitle: "Every role here is based on a real posting from a Colorado employer in our field. Click a job to see the role summary and a link to the original posting. Further down each job page is the **Interview room**, where the panel's questions for that job are."
+toc: false
+listing:
+  contents: jobs
+  type: grid
+  grid-columns: 2
+  sort: "title"
+  categories: true
+  fields: [title, subtitle, description, categories]
+  field-display-names:
+    subtitle: "Employer"
+  sort-ui: false
+  filter-ui: true
+---
+
+::: {.callout-note}
+Real postings close. If the original link no longer works, interview for the role anyway, because similar positions open every hiring cycle. Use the filter or the focus-area tags on the right to narrow the list.
+:::

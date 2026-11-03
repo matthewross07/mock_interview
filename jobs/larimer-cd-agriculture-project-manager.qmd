@@ -1,0 +1,111 @@
+---
+title: "Agriculture Project Manager"
+subtitle: "Larimer Conservation District"
+description: "Launch a new working-lands program: soil health, grazing, and irrigation help for Larimer County producers, funded by grants you help win."
+categories: [Sustainable Food Systems, Water Resources]
+location: "Fort Collins, CO (office + field)"
+salary: "$70,000 – $74,000"
+posting-url: "https://www.larimercd.org/jobs"
+posted: "October 12, 2026 (priority date November 16, 2026)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}; also on the [CSU Food Systems job board](https://foodsystems.colostate.edu/larimer-conservation-district-agriculture-project-manager/)). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Launch and run a **new agricultural conservation program** from concept to completion, including scopes, timelines, and budgets.
+- Give producers technical help on **soil health, agronomy, grazing, irrigation, and water management**.
+- Coordinate with NRCS, CSU Extension, FSA, local governments, and conservation nonprofits.
+- Write and manage grants and cost-share agreements, including reporting and reimbursements.
+- Prepare conservation plans and reports, and represent the district at community events.
+
+## What they're looking for
+
+- A degree in agronomy, soil science, rangeland ecology, environmental science, or a related field.
+- About 3 years of agricultural or conservation experience, including familiarity with **NRCS Farm Bill programs**.
+- GIS and GPS skills.
+- Ability to lead projects independently and work directly with producers.
+- Preferred: grant writing and coordinating multiple partners.
+
+::: {.callout-tip appearance="simple"}
+**Reality check:** This one is a stretch if you haven't worked with farm programs. If you pick it, be ready to talk about how you'd earn producers' trust.
+:::
+
+## Know the employer
+
+Conservation districts are local, voluntary, non-regulatory partners to farmers and ranchers. Larimer Conservation District works across the county's irrigated cropland, rangeland, and fast-growing communities along the Front Range.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** The district's conservation planner and soil-health specialist. You work closely with NRCS.
+
+**Ask one of these:**
+
+1. "Walk me through how you'd assess soil health on a 300-acre irrigated field near Wellington. What would you measure, and how often?"
+2. "We need to show a funder that this program changed something on the ground within two years. What data would you collect?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** District Manager. You own the grant budget and answer to the district board.
+
+**Ask one of these:**
+
+1. "This program starts from scratch, funded by a new grant. What do you do in your first 90 days?"
+2. "Our grant reimbursement report is due Friday, and two producers still haven't turned in receipts. Walk me through your week."
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** The district's outreach and education coordinator.
+
+**Ask one of these:**
+
+1. "A producer tried cover crops five years ago, lost yield, and felt it cost them water. They're skeptical of us now. How do you approach that first conversation?"
+2. "Tell me about a time you had to earn trust from people who didn't see you as one of them."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** A third-generation farmer east of Fort Collins who also sits on a ditch company board.
+
+**Ask one of these:**
+
+1. "The last person from the government came out with a clipboard and never called back. Why would you be different?"
+2. "If I change how I irrigate, does that put my water right at risk?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

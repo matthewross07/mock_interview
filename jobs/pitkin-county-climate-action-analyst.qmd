@@ -1,0 +1,110 @@
+---
+title: "Climate Action Analyst"
+subtitle: "Pitkin County"
+description: "Be a mountain county's in-house climate expert, turning its Climate Action Plan into policy, budgets, and data the Commissioners can act on."
+categories: [Carbon Management, Climate Adaptation & Risk]
+location: "Aspen, CO (hybrid)"
+salary: "$73,080 – $127,890"
+posting-url: "https://www.governmentjobs.com/careers/pitkin/jobs/5487174"
+posted: "October 21, 2026 (closes November 11, 2026)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Build the county's **Climate Action Plan** goals into department policies, budgets, and day-to-day operations.
+- Research and recommend policy on transportation, building performance, renewable energy, waste, and adaptation.
+- Collect and track **climate, energy, and emissions data**, build tracking tools, and report progress to the Board of County Commissioners.
+- Find and manage grants, program budgets, and consultants.
+- Represent the county in regional climate partnerships, and lead the county's **long-term disaster recovery** function when the emergency operations center is activated.
+
+## What they're looking for
+
+- About 3+ years of experience in climate policy, sustainability, energy, or environmental policy analysis.
+- A degree in environmental science, public policy, planning, or a related field.
+- Knowledge of GHG inventories, climate action planning, and adaptation.
+- Preferred: local-government, grant, and community-outreach experience.
+
+::: {.callout-tip appearance="simple"}
+**Reality check:** The posting asks for 3+ years of experience. Be ready to explain how your PSM internship, projects, and earlier jobs add up to that.
+:::
+
+## Know the employer
+
+Pitkin County covers Aspen and the upper Roaring Fork Valley. It's a small county with a big tourism economy, high-emitting visitor travel and second homes, and direct exposure to wildfire, drought, and a shrinking snowpack.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** The county's data and GIS manager, and its contact for the regional emissions inventory.
+
+**Ask one of these:**
+
+1. "Our emissions inventory is two years old and partly modeled. How would you track Climate Action Plan progress between inventories?"
+2. "Visitor air travel and second homes are huge here. How would you decide what counts as 'our' emissions and what doesn't?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** Assistant County Manager. You own the budget and the Commissioners' agenda.
+
+**Ask one of these:**
+
+1. "The Commissioners want to know on Tuesday whether we're on track with the Climate Action Plan. What goes on your one slide?"
+2. "We have $50,000 in grant match and three departments that want it: buildings, transit, and wildfire mitigation. How would you recommend splitting it?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** The county's community engagement lead.
+
+**Ask one of these:**
+
+1. "Much of the valley's workforce commutes in from downvalley because they can't afford to live here. How does that change how you talk about transportation emissions?"
+2. "This role also leads long-term recovery after a disaster. Tell me about a time you had to work in a chaotic, high-stakes situation."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** Owner of a small lodge in Aspen who sits on a county citizen advisory board.
+
+**Ask one of these:**
+
+1. "The building-performance rules you'd be pushing could cost me six figures to retrofit my lodge. Why should I support them?"
+2. "Every few years the county announces a new climate plan. What's different this time?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

@@ -1,0 +1,107 @@
+---
+title: "Analyst II, GIS"
+subtitle: "City of Fort Collins Utilities"
+description: "Build and automate the spatial data behind a city's drinking water, wastewater, and stormwater systems."
+categories: [Environmental Data Science, Water Resources]
+location: "Fort Collins, CO (hybrid possible, Colorado residents)"
+salary: "$76,745 – $127,908 (hiring range $88,000 – $104,000)"
+posting-url: "https://www.linkedin.com/jobs/view/analyst-ii-gis-at-city-of-fort-collins-4484369735"
+posted: "November 2, 2026 (closes November 13, 2026)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}; the official listing is on the [City of Fort Collins careers site](https://fcgov.csod.com/ux/ats/careersite/12/home?c=fcgov)). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Build and maintain **GIS data models and databases** for the city's drinking water, wastewater, and stormwater systems ("One Water").
+- **Write scripts** to automate data capture, conversion, and quality checks.
+- Run spatial and statistical analyses, and produce operational and regulatory maps.
+- Configure and support GIS apps and servers used by field crews.
+- Train staff, and communicate with both technical and nontechnical users.
+
+## What they're looking for
+
+- 6 years of combined related experience or education in fields such as geospatial science, environmental science, or computer science. Education counts toward this.
+- Strong **ArcGIS Pro** skills and familiarity with an enterprise GIS environment.
+- Ability to query and manage enterprise databases.
+- Knowledge of coordinate systems, map projections, and federal geospatial data standards.
+- Strong written and verbal communication.
+
+## Know the employer
+
+Fort Collins Utilities is a city-owned utility. Its "One Water" approach manages drinking water, wastewater, and stormwater as a single system, which makes good integrated spatial data especially valuable.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** GIS Manager for Utilities. You designed the current data model and know where its weak spots are.
+
+**Ask one of these:**
+
+1. "Field crews say the stormwater map on their tablets is wrong about where pipes actually are. How do you figure out whether it's a data problem, a sync problem, or a people problem?"
+2. "Tell me about a repetitive data task you automated. What did it save, and what broke the first time you ran it?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** One Water Field Operations manager. You set the team's priorities and answer to leadership.
+
+**Ask one of these:**
+
+1. "Requests come in from water, wastewater, stormwater, and leadership, all marked urgent. How do you decide what gets done first?"
+2. "A regulatory map is due to the state in two weeks, and the source data has known errors. What do you deliver?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Field crew supervisor who will be the main user of whatever this person builds.
+
+**Ask one of these:**
+
+1. "You'll be training field crews who've done this job for 20 years without a tablet. How do you get them to actually use the new app?"
+2. "Tell me about a time you explained a technical problem to someone who was frustrated and not technical."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** A Fort Collins City Council member who just got a call from an upset resident.
+
+**Ask one of these:**
+
+1. "A resident's basement flooded, and they say the city's stormwater maps were wrong. What would you tell me before I call them back?"
+2. "Why should the city keep paying for GIS software when the old maps worked fine?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

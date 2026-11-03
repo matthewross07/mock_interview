@@ -1,0 +1,107 @@
+---
+title: "Sustainability Analyst"
+subtitle: "Johns Manville"
+description: "Own a manufacturer's Scope 1–3 GHG inventory and the life cycle assessments behind its product carbon claims."
+categories: [Carbon Management, Corporate Sustainability]
+location: "Littleton or Denver, CO (hybrid, ~20% travel)"
+salary: "$62,800 – $86,400 + bonus"
+posting-url: "https://jm.wd103.myworkdayjobs.com/External/job/Littleton-CO-JMTC/Sustainability-Analyst_R26_1614"
+posted: "October 13, 2026"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Own and improve the company's annual **Scope 1, 2, and 3 greenhouse gas inventory**, from collecting energy, logistics, and supplier data through validating it.
+- Run **life cycle assessments** (cradle-to-gate and full LCA) and support **Environmental Product Declarations** for building products.
+- Build dashboards and turn the numbers into recommendations for plant, product, and leadership teams.
+- Support sustainability disclosures and ratings (CDP, EcoVadis) and customer data requests.
+- Work with cross-functional teams on energy, waste, and circularity projects.
+
+## What they're looking for
+
+- A degree in sustainability, environmental science, engineering, or a related field.
+- Working knowledge of the **GHG Protocol** and ISO 14064.
+- Hands-on LCA or product carbon footprint experience (SimaPro or GaBi is a plus).
+- Strong Excel skills, with Power BI a plus. Ability to explain technical results to non-experts.
+- The posting encourages people to apply even if they don't meet every listed requirement.
+
+## Know the employer
+
+Johns Manville is a Denver-headquartered building-products manufacturer (insulation, roofing, and engineered products) and a Berkshire Hathaway company. Architects and builders increasingly ask for product-level carbon data, which is a big reason this role exists.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** JM's senior LCA and GHG data lead. You built the current inventory spreadsheet and know every shortcut in it.
+
+**Ask one of these:**
+
+1. "Our biggest emissions category is Scope 3 purchased goods, and supplier data is patchy. How would you build an estimate this year that we can defend, and improve it next year?"
+2. "Walk me through a cradle-to-gate LCA for one of our insulation products. Which assumptions could swing the result the most?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** Director of Sustainability. You own the CDP and EcoVadis deadlines and the reporting calendar.
+
+**Ask one of these:**
+
+1. "Sales needs a product carbon number to win a big bid in six weeks. Our EPD process normally takes four months. What do you do?"
+2. "CDP, EcoVadis, and three customer questionnaires are all due the same month. How do you keep from drowning?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Lead of the plant-engagement team. You spend your days convincing plant managers that sustainability data matters.
+
+**Ask one of these:**
+
+1. "A plant manager in another state thinks the sustainability team just creates paperwork. How do you get their energy data and their buy-in?"
+2. "Explain the difference between Scope 1, 2, and 3 emissions to me like I'm a plant-floor supervisor."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** Procurement manager at one of JM's raw-material suppliers. You've just been asked for product-level emissions data.
+
+**Ask one of these:**
+
+1. "You want our product-level emissions data. That's competitive information. What's in it for us?"
+2. "We're a small supplier. Who's going to pay for us to measure this?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

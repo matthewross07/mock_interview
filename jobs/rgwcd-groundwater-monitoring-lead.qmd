@@ -1,0 +1,107 @@
+---
+title: "Groundwater Monitoring & Field Operations Lead"
+subtitle: "Rio Grande Water Conservation District"
+description: "Lead groundwater-level monitoring across the San Luis Valley, where aquifer sustainability decides the future of farming."
+categories: [Water Resources, Climate Adaptation & Risk]
+location: "Alamosa, CO (onsite, heavy fieldwork)"
+salary: "From $28.85/hr (~$60,000), non-exempt"
+posting-url: "https://www.linkedin.com/jobs/view/groundwater-monitoring-field-operations-lead-at-rio-grande-water-conservation-district-4481386158"
+posted: "October 2026 (applications due November 20, 2026)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}; more at [rgwcd.org](https://www.rgwcd.org)). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Lead the district's **monthly groundwater-level monitoring** program across the San Luis Valley.
+- **Verify, analyze, and report data** in coordination with the USGS and the Colorado Division of Water Resources, and investigate odd readings.
+- Plan and coordinate field projects with staff, contractors, and landowners.
+- Oversee installation and maintenance of monitoring wells, and calibrate field instruments.
+- Keep detailed field logs and maintain equipment and vehicles.
+
+## What they're looking for
+
+- A bachelor's degree in hydrology, natural resources, environmental science, or a related field, or equivalent experience.
+- Field data collection experience, plus GPS, GIS, and mobile data tools.
+- Preferred: 2+ years of hydrologic fieldwork, groundwater monitoring, and well installation experience.
+- Preferred: familiarity with Colorado groundwater management.
+- Ability to work independently outdoors in all weather.
+
+## Know the employer
+
+The Rio Grande Water Conservation District works on groundwater sustainability in the San Luis Valley. There, decades of irrigated agriculture and drought have drawn down the aquifers, and farmers formed groundwater sub-districts to bring them back into balance.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** The district's lead hydrogeologist. You work with the State's groundwater model.
+
+**Ask one of these:**
+
+1. "A well that's been steady for ten years reads 15 feet lower this month. Walk me through what you do before that number goes in a report to the State."
+2. "How would you set up QA/QC for monthly readings from 100+ wells measured by different staff?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** General Manager. You own the budget, the trucks, and the field schedule.
+
+**Ask one of these:**
+
+1. "It's February, it's −10°F, and you have 60 wells to measure this week with one truck. How do you plan the week?"
+2. "We need a new monitoring well, but the budget only covers half of it. What are our options?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Subdistrict outreach coordinator who works with irrigators across the Valley.
+
+**Ask one of these:**
+
+1. "Many of our monitoring wells are on private land, and some landowners aren't happy with the district right now. How do you keep access and trust?"
+2. "Tell me about a time you had to deliver bad news to someone whose livelihood depended on it."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** A potato grower in the San Luis Valley who pays subdistrict fees to pump less water.
+
+**Ask one of these:**
+
+1. "I'm paying fees to pump less water. What do these measurements actually do for me?"
+2. "You're not from the Valley. Why should anyone here trust you with our wells?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+$primary: #1E4D2B;   // CSU green
+$secondary: #8a8a3a;
+$link-color: #1E4D2B;
+$navbar-bg: #1E4D2B;
+$navbar-fg: #ffffff;
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap");
+
+.lead-box {
+  border-left: 5px solid #C8C372; // CSU gold
+  padding: .75rem 1rem;
+  background: rgba(200, 195, 114, .12);
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+}
+
+table.rotation td, table.rotation th { text-align: center; }
+table.rotation td.cand { font-weight: 700; color: $primary; }
+
+.seat-badge {
+  display: inline-block;
+  font-weight: 700;
+  padding: .05rem .5rem;
+  border-radius: 999px;
+  background: $primary;
+  color: #fff;
+  font-size: .85em;
+}
+
+// On phones, let wide tables scroll inside their own box instead of widening the page.
+@media (max-width: 576px) {
+  main table { display: block; overflow-x: auto; }
+}

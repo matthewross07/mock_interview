@@ -1,0 +1,7 @@
+**Riley's story.** A data feed your team depends on broke again last week, and you've been patching it ever since. You've been burned before by hires who listed "R" and "GIS" on their résumé and then couldn't clean a messy spreadsheet. You'll be reviewing this person's work every week.
+
+**Signature follow-up.** Whenever they use a buzzword like *modeled*, *analyzed*, *managed*, *data-driven*, or *stakeholders*, ask: *"What specifically did you do?"* or *"How would you know if that was wrong?"*
+
+**Quirks.** Friendly but literal. You ask for numbers ("How many sites? How many years of data?") and take notes.
+
+**Listen for:** specific tools and steps, real QA/QC habits, and honesty about gaps.

@@ -1,0 +1,30 @@
+---
+title: "About & AI Disclosure"
+subtitle: "How this site was made"
+---
+
+::: lead-box
+**This site was made with generative AI.** Matthew R.V. Ross built it using **Anthropic's Claude Opus 5.5** at the **High effort** setting, working in **Claude Code** (desktop app), in November 2026.
+:::
+
+## Who made it
+
+Matthew R.V. Ross (Department of Ecosystem Science and Sustainability, Colorado State University) created this site for students in the Professional Science Master's in Ecosystem Science and Sustainability. He designed the activity's goals and constraints, directed every revision, and is responsible for the content.
+
+## How AI was used
+
+- **Concept:** the first version of the activity (rotating pods, interviewer archetypes, a paperless setup) was brainstormed with **Google Gemini**.
+- **Building the site:** **Claude Opus 5.5 (High effort)** wrote the text on every page. That includes the instructions, the panel characters and mood cards, every interview question, the online options, and the discussion prompt. It also wrote the timer and mood-card code and the Quarto site configuration.
+- **Job postings:** Claude searched public job boards for real Colorado postings that match the program's focus areas. It opened and checked each posting on the employer's page or a public listing, then paraphrased the duties and qualifications. Each job page links to the original.
+- **Revision:** the instructor reviewed drafts and asked for specific changes, including tone, round timing, the online format, and questions tied to each job. Claude made those changes.
+
+## About the job postings
+
+- Each job is **based on a real public posting, accessed November 3, 2026**. Summaries are paraphrased. **The original posting is the authoritative source.**
+- Postings close. A closed posting is still realistic practice.
+- The employers named here are **not affiliated with this activity** and have not reviewed or endorsed it.
+- The panel characters (Riley, Pat, Morgan, Dale), their "Here, you are" roles, and every interview question are **fictional**. They were written for practice and don't describe real people at these organizations.
+
+## Updating the site
+
+The source is on GitHub ([matthewross07/mock_interview](https://github.com/matthewross07/mock_interview)). Jobs, characters, and mood cards each live in their own file, so the site can be updated each term.

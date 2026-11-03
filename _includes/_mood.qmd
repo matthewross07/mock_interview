@@ -1,0 +1,45 @@
+```{=html}
+<style>
+  #mood-box { border:2px dashed var(--bs-primary, #1E4D2B); border-radius:12px; padding:1rem 1.25rem; margin:1rem 0 1.5rem; }
+  #mood-text { font-size:1.15rem; margin-top:.75rem; min-height:3rem; }
+  #mood-text b { color: var(--bs-primary, #1E4D2B); }
+</style>
+<div id="mood-box">
+  <button id="mood-btn" class="btn btn-primary">🎲 Draw a mood card</button>
+  <button id="mood-hide" class="btn btn-outline-secondary btn-sm ms-2" hidden>Hide</button>
+  <div id="mood-text" aria-live="polite"><i>Tap to draw. Draw again each round.</i></div>
+</div>
+<script>
+(function () {
+  // ---- Add, edit, or remove mood cards here ----
+  const MOODS = [
+    ["Short on sleep", "A neighbor's car alarm went off twice overnight and you didn't sleep much. You're polite, just a little shorter with follow-ups than usual."],
+    ["Budget meeting next", "You have a budget meeting right after this. At least once, ask what something would cost or how long it would take."],
+    ["Long day of interviews", "This is your sixth interview today. You're attentive, but at one point you lose your place and ask them to remind you of something they already said."],
+    ["Skimmed the résumé", "You only skimmed their résumé on the way in. Ask about one thing on it in a slightly wrong way and let them correct you."],
+    ["Good news this morning", "A grant you've been waiting on came through this morning. You're warm and encouraging, which can make candidates relax a little too much."],
+    ["Extra coffee", "You're on your third coffee. You talk a bit fast and ask one two-part question."],
+    ["Just back from the field", "You got back from a week of fieldwork last night. You perk up at field stories and ask at least one follow-up about how things work on the ground."],
+    ["Fresh from a conference", "You just got back from a conference with a lot of talk about AI. Ask how they'd use AI tools in this role."],
+    ["Phone on the table", "You're waiting on a call from your kid's school. Glance at your phone once and ask them to repeat the last part of an answer."],
+    ["New to the panel", "You joined the organization a month ago and this is your first hiring panel. You read your question straight from your notes."],
+    ["Traffic on I-25", "You sat in traffic on I-25 for 40 minutes this morning. You're keen on efficiency and ask what the quickest workable approach would be."],
+    ["The inherited script", "Your program runs on an R script written by someone who left years ago. You're hoping this person could take it over, so steer one question toward coding."],
+    ["Didn't get to prep", "Meetings ran over and you didn't get to prepare. Open with \"So, tell me about yourself,\" and build your question off their answer."],
+    ["Director is listening", "Your director is joining the panel today (imaginary, but you can feel them there). You're a bit more formal than usual."],
+    ["Shared background", "You notice you share something with the candidate, like a hometown, a school, or a favorite trail. Mention it briefly."],
+    ["Playing devil's advocate", "Push back once on a position the candidate takes, politely, to see how they respond to disagreement."]
+  ];
+  // ----------------------------------------------
+  let last = -1;
+  const txt = document.getElementById("mood-text"), hide = document.getElementById("mood-hide");
+  document.getElementById("mood-btn").addEventListener("click", () => {
+    let i; do { i = Math.floor(Math.random() * MOODS.length); } while (i === last && MOODS.length > 1);
+    last = i;
+    txt.innerHTML = "<b>" + MOODS[i][0] + ".</b> " + MOODS[i][1];
+    hide.hidden = false;
+  });
+  hide.addEventListener("click", () => { txt.innerHTML = "<i>Hidden. Draw again next round.</i>"; hide.hidden = true; });
+})();
+</script>
+```

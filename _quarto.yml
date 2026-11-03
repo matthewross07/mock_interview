@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+  # Only render site pages; README.md and files starting with "_" are skipped.
+  render:
+    - "*.qmd"
+    - "jobs/*.qmd"
+
+website:
+  title: "ESS Mock Interview Panel"
+  site-url: https://matthewross07.github.io/mock_interview/
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Instructions
+      - href: jobs.qmd
+        text: Job Board
+      - href: panel.qmd
+        text: Meet the Panel
+      - href: timer.qmd
+        text: Timer
+      - href: online.qmd
+        text: Online Students
+      - href: discussion.qmd
+        text: Discussion
+    right:
+      - href: about.qmd
+        text: About & AI Disclosure
+  page-footer:
+    left: "Professional Science Master's · Ecosystem Science & Sustainability · Colorado State University"
+    right:
+      - text: "AI disclosure: built by Matthew R.V. Ross with Anthropic's Claude Opus 5.5 (High effort) in Claude Code"
+        href: about.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/theme.scss]
+      dark: [darkly, styles/theme-dark.scss]
+    toc: true
+    toc-depth: 2
+    # Quarto's default body column is ~800px; widen it so pages use the screen.
+    grid:
+      body-width: 1200px
+      margin-width: 250px
+      sidebar-width: 250px
+      gutter-width: 2rem
+    smooth-scroll: true

@@ -1,0 +1,107 @@
+---
+title: "EPS I – SWAP Data/Program Coordinator"
+subtitle: "Colorado Dept. of Public Health & Environment"
+description: "Run the statewide program that helps communities protect the rivers and aquifers their drinking water comes from, including the data and maps behind it."
+categories: [Water Resources, Environmental Data Science]
+location: "Denver, CO (10–15% statewide travel)"
+salary: "$66,400 – $79,680"
+posting-url: "https://www.governmentjobs.com/careers/colorado/jobs/5534076/eps-i-swap-data-program-coordinator-2280"
+posted: "November 3, 2026 (closes November 17, 2026)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Coordinate Colorado's **Source Water Assessment and Protection (SWAP)** program, which helps communities protect the source waters behind their drinking-water supplies.
+- Do outreach, training, and technical support for public water systems, local health departments, and grant recipients.
+- Manage grant tracking, contracting, and reporting, including work tied to new **PFAS** requirements.
+- Maintain the SWAP **database and maps**, and respond to data and GIS requests.
+- Write program materials, procedures, and web content.
+
+## What they're looking for
+
+- Minimum: a bachelor's in environmental science, natural resources, hydrology, or a related field, plus 1 year of experience managing water-quality projects.
+- Preferred: **a master's degree**.
+- Preferred: watershed or source-water project experience, plus mapping, data analysis, and reporting skills (ArcGIS, spreadsheets).
+- Preferred: familiarity with the Safe Drinking Water Act or the Colorado Water Quality Control Act, and experience working across agencies and communities.
+- The position is open to Colorado residents only.
+
+## Know the employer
+
+CDPHE's Water Quality Control Division regulates drinking water and water quality statewide. The SWAP program is voluntary and partnership-based, so much of the job is persuading people rather than enforcing rules.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** The unit's GIS and data lead. You inherited the SWAP database and its decades of inconsistent records.
+
+**Ask one of these:**
+
+1. "A legislator's office wants a map of every source water protection area by Friday. Our database has records entered by many different people over decades. What do you check before you send it?"
+2. "How would you prioritize which source water areas are most at risk from PFAS? What data would you combine?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** Unit Manager. You own the grant budget and the federal reporting deadlines.
+
+**Ask one of these:**
+
+1. "We have grant money for about 15 communities and 40 are interested. How do you decide who gets it, and how do you tell the rest?"
+2. "Federal reporting, two grant deadlines, and a statewide training workshop all land in the same month. How do you plan it?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Outreach lead who works with local health departments and small water systems.
+
+**Ask one of these:**
+
+1. "A small mountain town with one part-time water operator wants to join SWAP but says they don't have time for a 'plan.' How do you get them started?"
+2. "Explain what 'source water protection' means to me like I'm a town council member who's never heard the term."
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** The only operator of a small-town water system, who also plows the roads in winter.
+
+**Ask one of these:**
+
+1. "I'm the only operator here. What exactly do you need from me, and how long will it take?"
+2. "The state keeps adding rules. Is this program going to turn into another regulation we have to pay for?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

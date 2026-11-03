@@ -1,0 +1,106 @@
+---
+title: "Corporate Sustainability Consultant"
+subtitle: "Guidehouse"
+description: "Help corporate clients measure emissions, assess climate risk, and build decarbonization strategies, at consulting speed."
+categories: [Carbon Management, Corporate Sustainability]
+location: "Boulder, CO office (also Boston, New York, Arlington VA); heavy client travel"
+salary: "$74,000 – $124,000"
+posting-url: "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---MA-Boston/Corporate-Sustainability-Consultant_45950"
+posted: "November 3, 2026"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Do technical, economic, and financial analysis for clients, including data collection and modeling.
+- Work on **corporate GHG accounting**, climate risk, ESG disclosure, and emissions-reduction (abatement) analysis.
+- Evaluate energy efficiency and renewable energy options.
+- Research market trends and help shape client sustainability strategies.
+- Help manage multi-client projects and write and present **client-ready reports**.
+
+## What they're looking for
+
+- A bachelor's degree in a quantitative field and at least 1 year of post-graduate quantitative work. **A master's is preferred.**
+- Corporate sustainability experience and project-management skills.
+- Strong Excel and PowerPoint skills, and comfort presenting to clients.
+- Willingness to travel a lot (the posting says up to 75% or more).
+
+## Know the employer
+
+Guidehouse is a large consulting firm working in energy, sustainability, health, and government. Its Boulder office has deep roots in energy and sustainability consulting, which makes it one of the larger employers of sustainability consultants on the Front Range.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** Associate Director who leads corporate GHG engagements and does final technical QA on every deliverable.
+
+**Ask one of these:**
+
+1. "A mid-size food company has never done a GHG inventory and wants a science-based target in three months. Sketch the analysis plan for me."
+2. "After you switched emission factors, a client's Scope 3 total jumped 40% from last year. How do you check that, and how do you explain it to them?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** Engagement Director. You own the client relationship, the budget, and the hours.
+
+**Ask one of these:**
+
+1. "Clients pay for every hour. Tell me about a time you had to produce something polished under real time pressure. What did you sacrifice?"
+2. "The night before a deliverable, the client asks for extra analysis that's outside the contract scope. What do you do?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Practice lead who manages and mentors the consulting staff.
+
+**Ask one of these:**
+
+1. "This job means heavy travel and constantly changing teams. Tell me about a time you had to build trust quickly with people you'd just met."
+2. "A client executive tells you climate disclosure is 'just a compliance exercise.' How do you respond without losing the account?"
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** The client's CFO, sitting in on the panel because your firm wants their renewal.
+
+**Ask one of these:**
+
+1. "My board wants to know what this decarbonization plan costs and when it pays back. Give me the answer in one sentence."
+2. "Why should I pay a consultant instead of hiring one more person on my own team?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::

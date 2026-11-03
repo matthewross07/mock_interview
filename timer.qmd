@@ -1,0 +1,222 @@
+---
+title: "Round Timer"
+subtitle: "One timer for the whole room. Everyone who opens the same link sees the same clock, whether they're in the classroom or on a video call."
+toc: false
+---
+
+::: {.callout-tip collapse="true"}
+## How this timer stays in sync
+Pressing **Start now** puts the start time in the page link. Anyone who opens that link (via the QR code, a video-call chat, or Canvas) sees the same phase and countdown, because the timer runs off each device's clock instead of a shared screen. Every pod rotates together without anyone calling time.
+
+- **Pods of mixed sizes?** Set the pod size to the largest pod. Smaller pods finish early and go on to the [Discussion](discussion.qmd).
+- **Sound:** each device has to turn on the chime once, because browsers block sound until you click something.
+:::
+
+```{=html}
+<style>
+  #timer-app { --t-accent: var(--bs-primary, #1E4D2B); }
+  #timer-app .t-controls { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin-bottom:1rem; }
+  #timer-app .t-controls label { font-weight:600; margin-right:.25rem; }
+  #timer-app .t-controls select, #timer-app .t-controls input { width:auto; display:inline-block; }
+  #t-display { border:2px solid var(--t-accent); border-radius:12px; padding:1.25rem 1rem; text-align:center; background: var(--bs-body-bg); }
+  #t-display:fullscreen { display:flex; flex-direction:column; justify-content:center; padding:3rem; }
+  #t-status { font-size:1.15rem; font-weight:600; opacity:.85; }
+  #t-phase { font-size:clamp(2rem, 7vw, 4.5rem); font-weight:700; color:var(--t-accent); line-height:1.1; margin:.25rem 0; }
+  #t-clock { font-size:clamp(3.5rem, 16vw, 9rem); font-weight:700; font-variant-numeric:tabular-nums; line-height:1; }
+  #t-do { font-size:1.15rem; max-width:44rem; margin:.75rem auto; }
+  .t-bar { height:12px; background:rgba(127,127,127,.2); border-radius:6px; overflow:hidden; max-width:44rem; margin:.75rem auto; }
+  #t-fill { height:100%; width:0; background:var(--t-accent); transition:width .25s linear; }
+  #t-next { opacity:.75; }
+  #t-seats { display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem; margin-top:1rem; }
+  #t-seats .seat { border:1px solid rgba(127,127,127,.4); border-radius:8px; padding:.35rem .7rem; min-width:6.5rem; }
+  #t-seats .seat b { display:block; font-size:1.2rem; }
+  #t-seats .seat.cand { background:var(--t-accent); color:#fff; border-color:var(--t-accent); }
+  #t-share { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin-top:1.25rem; }
+  #t-qr { background:#fff; padding:8px; border-radius:6px; }
+  #t-link { word-break:break-all; }
+</style>
+
+<div id="timer-app">
+  <div class="t-controls">
+    <span><label for="t-size">Pod size</label>
+      <select id="t-size" class="form-select form-select-sm">
+        <option value="3">3</option><option value="4" selected>4</option><option value="5">5</option>
+      </select></span>
+    <button id="t-start" class="btn btn-primary btn-sm">Start now</button>
+    <span><label for="t-at">or start at</label>
+      <input id="t-at" type="time" class="form-control form-control-sm">
+      <button id="t-set" class="btn btn-outline-primary btn-sm">Set</button></span>
+    <button id="t-sound" class="btn btn-outline-secondary btn-sm" aria-pressed="false">🔕 Chime off</button>
+    <button id="t-full" class="btn btn-outline-secondary btn-sm">⛶ Full screen</button>
+    <button id="t-reset" class="btn btn-outline-danger btn-sm">Reset</button>
+  </div>
+
+  <div id="t-display" aria-live="polite">
+    <div id="t-status">Not started</div>
+    <div id="t-phase">Ready</div>
+    <div id="t-clock">--:--</div>
+    <div id="t-do">Instructor: choose the pod size, then press <b>Start now</b> and share the link or QR code.</div>
+    <div class="t-bar"><div id="t-fill"></div></div>
+    <div id="t-next"></div>
+    <div id="t-seats"></div>
+  </div>
+
+  <div id="t-share" hidden>
+    <div id="t-qr"></div>
+    <div>
+      <div><b>Join this timer:</b> scan the code or open</div>
+      <a id="t-link" href="#"></a><br>
+      <button id="t-copy" class="btn btn-outline-primary btn-sm mt-2">Copy link</button>
+      <span id="t-copied" class="ms-2" hidden>Copied ✓</span>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function () {
+  // ---- Edit phase lengths (minutes) and instructions here ----
+  const PHASES = [
+    { name: "Set up",          min: 1, todo: "Rotate seats. Candidate names their job. Panelists open that job's page → Interview room → their own seat, then draw a mood card." },
+    { name: "Pitch",           min: 1, todo: "Candidate gives a 60-second pitch. Panel listens without interrupting." },
+    { name: "Panel questions", min: 5, todo: "In seat order (A → B → C, then D in pods of 5), each panelist asks ONE question in character and follows up." },
+    { name: "Candidate asks",  min: 1, todo: "Candidate asks the panel their prepared question. Panel answers in character." },
+    { name: "Debrief",         min: 2, todo: "Drop character. Each panelist gives one hired-peer moment, one hedge or too-academic moment, and one thing to try." }
+  ];
+  // -------------------------------------------------------------
+
+  const ROUND_SEC = PHASES.reduce((s, p) => s + p.min * 60, 0);
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  let start = params.get("t") ? Number(params.get("t")) : null;   // epoch seconds
+  let size = [3, 4, 5].includes(Number(params.get("n"))) ? Number(params.get("n")) : 4;
+  let sound = false, lastIdx = null, audioCtx = null;
+
+  $("t-size").value = String(size);
+
+  function roles(n) { return n === 3 ? ["Candidate", "A+B", "C"] : ["Candidate", "A", "B", "C", "D"].slice(0, n); }
+  function fmt(s) { s = Math.max(0, Math.ceil(s)); const m = Math.floor(s / 60); return String(m).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0"); }
+
+  function syncUrl() {
+    const p = new URLSearchParams();
+    p.set("n", size);
+    if (start) p.set("t", start);
+    const url = location.origin + location.pathname + "?" + p.toString();
+    history.replaceState(null, "", url);
+    const share = $("t-share");
+    if (start) {
+      share.hidden = false;
+      $("t-link").textContent = url; $("t-link").href = url;
+      const qr = $("t-qr"); qr.innerHTML = "";
+      try { new QRCode(qr, { text: url, width: 150, height: 150, correctLevel: QRCode.CorrectLevel.L }); } catch (e) {}
+    } else {
+      share.hidden = true;
+    }
+  }
+
+  function chime() {
+    if (!sound) return;
+    try {
+      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+      [0, 0.25].forEach(offset => {
+        const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+        o.frequency.value = 880; o.connect(g); g.connect(audioCtx.destination);
+        const t0 = audioCtx.currentTime + offset;
+        g.gain.setValueAtTime(0.0001, t0);
+        g.gain.exponentialRampToValueAtTime(0.4, t0 + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.6);
+        o.start(t0); o.stop(t0 + 0.65);
+      });
+    } catch (e) {}
+  }
+
+  function seatsHtml(round, n) {
+    const r = roles(n);
+    let html = "";
+    for (let p = 1; p <= n; p++) {
+      const role = r[((p - round) % n + n) % n];
+      html += `<div class="seat${role === "Candidate" ? " cand" : ""}">Person ${p}<b>${role === "Candidate" ? "Candidate" : "Seat " + role}</b></div>`;
+    }
+    return html;
+  }
+
+  function render() {
+    const rounds = size;
+    if (!start) {
+      $("t-status").textContent = "Not started";
+      $("t-phase").textContent = "Ready";
+      $("t-clock").textContent = fmt(ROUND_SEC);
+      $("t-do").innerHTML = "Instructor: choose the pod size, then press <b>Start now</b> and share the link or QR code.";
+      $("t-fill").style.width = "0%";
+      $("t-next").textContent = `${rounds} rounds × ${ROUND_SEC / 60} min = ${rounds * ROUND_SEC / 60} min total`;
+      $("t-seats").innerHTML = seatsHtml(1, size);
+      return;
+    }
+    const elapsed = Date.now() / 1000 - start;
+    if (elapsed < 0) {
+      $("t-status").textContent = "Starting soon";
+      $("t-phase").textContent = "Get into your pod";
+      $("t-clock").textContent = fmt(-elapsed);
+      $("t-do").innerHTML = "Number off 1–" + size + ". Person 1 is the first candidate.";
+      $("t-fill").style.width = "0%";
+      $("t-next").textContent = "First up: Set up (" + PHASES[0].min + " min)";
+      $("t-seats").innerHTML = seatsHtml(1, size);
+      return;
+    }
+    const round = Math.floor(elapsed / ROUND_SEC);
+    if (round >= rounds) {
+      if (lastIdx !== "done") { if (lastIdx !== null) chime(); lastIdx = "done"; }
+      $("t-status").textContent = "All rounds complete";
+      $("t-phase").textContent = "Done 🎉";
+      $("t-clock").textContent = "00:00";
+      $("t-do").innerHTML = 'Thank your panel. Next up: the <a href="discussion.html">Discussion</a>.';
+      $("t-fill").style.width = "100%";
+      $("t-next").textContent = "";
+      $("t-seats").innerHTML = "";
+      return;
+    }
+    let within = elapsed - round * ROUND_SEC, i = 0;
+    while (within >= PHASES[i].min * 60) { within -= PHASES[i].min * 60; i++; }
+    const ph = PHASES[i], remaining = ph.min * 60 - within;
+    const idx = round * PHASES.length + i;
+    if (lastIdx !== null && lastIdx !== idx) chime();
+    lastIdx = idx;
+
+    $("t-status").textContent = `Round ${round + 1} of ${rounds} · Person ${round + 1} is the candidate`;
+    $("t-phase").textContent = ph.name;
+    $("t-clock").textContent = fmt(remaining);
+    $("t-do").textContent = ph.todo;
+    $("t-fill").style.width = (100 * (elapsed - round * ROUND_SEC) / ROUND_SEC).toFixed(1) + "%";
+    const next = PHASES[i + 1];
+    $("t-next").textContent = next ? `Next: ${next.name} (${next.min} min)`
+      : (round + 1 < rounds ? `Next: ROTATE → Person ${round + 2} is the candidate` : "Last phase of the last round");
+    $("t-seats").innerHTML = seatsHtml(round + 1, size);
+  }
+
+  $("t-size").addEventListener("change", e => { size = Number(e.target.value); syncUrl(); render(); });
+  $("t-start").addEventListener("click", () => { start = Math.floor(Date.now() / 1000); lastIdx = null; syncUrl(); render(); });
+  $("t-set").addEventListener("click", () => {
+    const v = $("t-at").value; if (!v) return;
+    const [h, m] = v.split(":").map(Number), d = new Date(); d.setHours(h, m, 0, 0);
+    start = Math.floor(d.getTime() / 1000); lastIdx = null; syncUrl(); render();
+  });
+  $("t-reset").addEventListener("click", () => { start = null; lastIdx = null; syncUrl(); render(); });
+  $("t-sound").addEventListener("click", e => {
+    sound = !sound;
+    e.target.textContent = sound ? "🔔 Chime on" : "🔕 Chime off";
+    e.target.setAttribute("aria-pressed", String(sound));
+    if (sound) chime();
+  });
+  $("t-full").addEventListener("click", () => {
+    const el = $("t-display");
+    try { document.fullscreenElement ? document.exitFullscreen() : el.requestFullscreen(); } catch (e) {}
+  });
+  $("t-copy").addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText($("t-link").href); $("t-copied").hidden = false; setTimeout(() => $("t-copied").hidden = true, 1500); } catch (e) {}
+  });
+
+  syncUrl(); render();
+  setInterval(render, 250);
+})();
+</script>
+```

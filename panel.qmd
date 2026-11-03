@@ -1,0 +1,60 @@
+---
+title: "Meet the Panel"
+subtitle: "The same four characters sit on every panel. What they ask depends on the job."
+---
+
+::: lead-box
+**Your questions live on the job page.** When the candidate names their job, every panelist opens **that job** on the [Job Board](jobs.qmd) and scrolls down to its **Interview room**. Each seat there has questions written for that specific role, plus a line about who your character is at that employer. Real panels work the same way: the interviewers come from the hiring organization, and the questions come from the job.
+:::
+
+## How a panelist works each round
+
+1. **Open the candidate's job page** → **Interview room** → **your seat only**.
+2. **Draw a mood card** (the button is in the Interview room). Keep it secret and play it lightly.
+3. **Introduce yourself** in one line, in character, for example *"Hi, I'm Pat. I direct sustainability here and chair this search."*
+4. **Ask one** of your seat's questions for that job, and **follow up at least once** with your character's signature move.
+5. **Note one strong moment and one weak moment** for the debrief.
+
+## The characters
+
+These are the parts of each character that stay the same on every panel. You don't need to read them here, because they're repeated inside each seat on every job page.
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead
+**Wants to know:** Can they actually *do* the work? Do they know what they don't know?
+
+{{< include _includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair
+**Wants to know:** Will they prioritize, hit deadlines, and raise trade-offs *before* they become emergencies?
+
+{{< include _includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead
+**Wants to know:** Can they work with non-scientists, handle friction, and learn from mistakes? Do they understand *why* this organization exists?
+
+{{< include _includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5)
+**Wants to know:** Will this person waste my time, talk down to me, or actually help? Dale is a different person on every job, such as a supplier, a farmer, or a council member. The job page says who.
+
+{{< include _includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3)
+{{< include _includes/_seat-ab.qmd >}}
+:::
+
+## Ground rules for panelists
+
+- **Details add realism; they're not an attack.** Stay tough but fair, and drop the act completely for the debrief.
+- **No illegal questions,** even in character: nothing about age, family status, pregnancy, religion, national origin, disability, or similar topics.
+- **Keep the details about your character's day,** never about the candidate.
+- **Off-script is fine.** If the candidate says something interesting, follow it. Your seat's questions are a starting point, not a script.

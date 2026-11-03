@@ -1,0 +1,112 @@
+---
+title: "Mock Interview Panel"
+subtitle: "Interview for a real Colorado job as yourself, then sit on the hiring panel for your classmates."
+---
+
+::: lead-box
+**The short version.** You'll work in a **pod of about 4** (usually 4, sometimes 3 or 5). Each person gets one turn in the **hot seat**, interviewing *as themselves* for a real job from the [Job Board](jobs.qmd). Everyone else in the pod plays the hiring panel. Each panelist plays one of [the panel's characters](panel.qmd), asks questions written for *that specific job*, and draws a secret "mood card" (a small detail about their day), because real interviewers are people too. After every round, the pod rotates. By the end you'll have been the candidate once and played each panel seat once.
+
+Nothing to print. Everything is on this site, so open it on your phone or laptop.
+:::
+
+::: {.callout-tip}
+## Online student?
+Same jobs, same panel, on your own schedule. Your pod gets **two weeks** to self-schedule one live video call, with an asynchronous video option if you can't find a time. See [Online Students](online.qmd).
+:::
+
+## Before class (about 30–45 minutes)
+
+1. **Browse the [Job Board](jobs.qmd)** and pick a **first choice** and a **backup**. It's fine if a podmate picks the same job.
+2. **Open the real posting** (each job page links to it). Find the 3 qualifications the employer seems to care about most. For each one, jot down a real example from your coursework, internship, research, or past jobs.
+3. **Draft a 60-second pitch** (see the formula below). Say it out loud at least once. Don't memorize it word for word.
+4. **Write one question to ask the panel.** Make it a question you'd actually want answered, not one designed to impress.
+5. **Bring a charged device.** During other people's rounds, you'll open *their* job page to find your panel questions.
+
+When you prep, read your job page only down to **Know the employer**. The **Interview room** below that is for the panel. Not knowing the exact questions is part of the practice.
+
+You'll be interviewing **as yourself**, so use your real background. Gaps are fine. Handling a gap honestly is one of the skills you're practicing.
+
+## In class: how a round works
+
+Each round is **10 minutes**, so a pod of 4 finishes in 40 minutes and a pod of 5 in 50. The [Timer](timer.qmd) runs at the front of the room, and you can open it on your own device. It shows the current phase and which seat is the candidate.
+
+| Phase | Time | What happens |
+|---|---|---|
+| **Set up** | 1 min | Rotate seats. The candidate names their job. Panelists open **that job's page** on the [Job Board](jobs.qmd), scroll to the **Interview room**, open **only their own seat**, and **draw a mood card**. |
+| **Pitch** | 1 min | The candidate gives their 60-second pitch: who they are, why this role, one proof point. The panel just listens. |
+| **Panel questions** | 5 min | Panelists go in seat order (A → B → C). Each asks **one** of their seat's questions for this job, in character, and then follows up in their character's style. |
+| **Candidate asks** | 1 min | The candidate asks their prepared question. The panel answers in character, and it's fine to make things up. |
+| **Debrief** | 2 min | **Drop character.** Each panelist gives three quick notes, one sentence each (see the debrief section below). The candidate mostly listens and says "thank you." |
+
+Then **rotate** and start the next round. You'll spend about 7 minutes in the hot seat. That's short, but real first-round screens are often only 15–20 minutes.
+
+## Who sits where (rotation)
+
+Number off around the pod (**1, 2, 3, …**), then use the table for your pod's size. Find your number in it. Each row is a round, and in each round you either interview or play the seat shown.
+
+**Pod of 4:** Seats A, B, and C.
+
+| Round | Person 1 | Person 2 | Person 3 | Person 4 |
+|:-:|:-:|:-:|:-:|:-:|
+| 1 | **Candidate** | A | B | C |
+| 2 | C | **Candidate** | A | B |
+| 3 | B | C | **Candidate** | A |
+| 4 | A | B | C | **Candidate** |
+
+**Pod of 5:** Add Seat D, the outside stakeholder.
+
+| Round | P1 | P2 | P3 | P4 | P5 |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1 | **Candidate** | A | B | C | D |
+| 2 | D | **Candidate** | A | B | C |
+| 3 | C | D | **Candidate** | A | B |
+| 4 | B | C | D | **Candidate** | A |
+| 5 | A | B | C | D | **Candidate** |
+
+**Pod of 3:** One person plays A and B combined (a "Hiring Manager"), and the other plays C.
+
+| Round | P1 | P2 | P3 |
+|:-:|:-:|:-:|:-:|
+| 1 | **Candidate** | A+B | C |
+| 2 | C | **Candidate** | A+B |
+| 3 | A+B | C | **Candidate** |
+
+## Toolkit for the hot seat
+
+**The 60-second pitch formula**
+
+> *"I'm [name], and I [what you do / your focus] — most recently [one concrete thing you built, analyzed, or managed]. I'm interested in [this role] at [this employer] because [something specific from the posting or their work]. What I'd bring is [the one or two skills that match their top needs]."*
+
+**STAR for behavioral questions** ("Tell me about a time…")
+
+- **S**ituation: one or two sentences of context.
+- **T**ask: what *you* were responsible for.
+- **A**ction: what *you* did. Spend most of your time here and say "I," not "we."
+- **R**esult: what happened, with a number if you have one, and what you learned.
+
+**When you don't know something**
+
+> *"I haven't used [X] directly. The closest thing I've done is [Y], where I [specific]. Here's how I'd get up to speed on [X]…"*
+
+This beats bluffing every time, and Seat A *will* notice a bluff.
+
+## Debrief: how to give feedback
+
+When the debrief phase starts, **drop character**. Each panelist gives three quick notes:
+
+1. **Hired-peer moment:** one moment when the candidate sounded like a colleague you'd want on your team.
+2. **Hedge or too-academic moment:** one moment when they hedged, rambled, or answered like it was a seminar instead of a job.
+3. **One thing to try:** one specific, doable change for next time.
+
+Be specific ("When you described cleaning the streamflow data, I believed you") rather than general ("Good job!"). Keep it kind, honest, and quick, because you only have two minutes. If your mood card affected the interview, say what it was. How they handled it is useful feedback too.
+
+## Ground rules
+
+- **Tough but fair.** Your seat is there to give the candidate realistic practice, not to "win."
+- **No illegal questions.** Real interviewers can't ask about age, marital or family status, pregnancy, religion, national origin, disability, or similar topics, and neither can you, even in character.
+- **Stay in character** until the debrief. Then fully step out of it.
+- **Stumbling is the point.** It's much better to freeze here than in a real interview.
+
+## After the activity
+
+Head to the [Discussion](discussion.qmd) page for the follow-up prompt.

@@ -1,0 +1,109 @@
+---
+title: "Water Resources Engineer or Hydrologist"
+subtitle: "BBA Water Consultants"
+description: "Entry-level water rights consulting: water supply planning, historical use analyses, and technical support for Colorado Water Court."
+categories: [Water Resources]
+location: "Englewood, CO (Salida branch office)"
+salary: "$65,000 – $105,000"
+posting-url: "https://bbawater.com/water-resource-engineer-hydrologist/"
+posted: "September 2026 (open until filled)"
+accessed: "November 3, 2026"
+---
+
+::: {.callout-note appearance="simple"}
+**{{< meta subtitle >}}** · {{< meta location >}} · {{< meta salary >}}
+
+Based on a real posting ([view original]({{< meta posting-url >}}), posted {{< meta posted >}}, accessed {{< meta accessed >}}). Postings close. Interview for it anyway.
+:::
+
+## The role
+
+- Support clients such as municipalities, water districts, and private owners with **day-to-day water operations and water supply planning**.
+- Provide technical support for **Colorado Water Court** cases.
+- Explain technical water concepts clearly to clients, attorneys, and the court.
+- Do analyses like **historical consumptive use** and water rights administration work.
+
+## What they're looking for
+
+- A BS and/or MS in engineering, hydrology, or water resources, with **0–5 years** of Colorado water resources experience.
+- Strong writing, speaking, and time management skills, and strong Excel skills.
+- Pluses: programming, GIS, and familiarity with Colorado water law and water rights administration.
+- Hydrologists are expected to hold or work toward Professional Hydrologist (PH) certification. Engineers are expected to hold or work toward PE licensure.
+
+::: {.callout-tip appearance="simple"}
+**Reality check:** If you haven't taken *Water Law for Non-Lawyers* or something similar, brush up on prior appropriation, and be ready to explain how you'd work toward PH certification.
+:::
+
+## Know the employer
+
+BBA Water Consultants is a Denver-area firm focused on Colorado water rights, water supply, and Water Court work. Colorado's prior-appropriation system makes this kind of consulting a large niche, and much of it involves converting water from agricultural to municipal use.
+
+## Interview room {#interview-room}
+
+::: {.callout-warning appearance="simple"}
+**Candidate: stop reading here.** Everything below is for the panel.
+
+**Panelists:** open **only your own seat**. Each seat's questions were written for *this* job. Ask one of them, then follow up in your character's style.
+:::
+
+**Every round, each panelist draws a mood card.** Keep it secret and play it lightly.
+
+{{< include ../_includes/_mood.qmd >}}
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A · Riley, the Technical Lead (click to open)
+
+**Here, you are:** Senior hydrologist who has testified as an expert witness in Water Court many times.
+
+**Ask one of these:**
+
+1. "A client bought a ranch and wants to change its senior irrigation right to municipal use. Walk me through how you'd approach the historical consumptive use analysis."
+2. "The ditch's diversion records have gaps in the 1970s. How do you handle missing data in an analysis that will be cross-examined?"
+
+{{< include ../_includes/_seat-a.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat B · Pat, Search Committee Chair (click to open)
+
+**Here, you are:** Principal of the firm. You manage client billing and keep the firm profitable.
+
+**Ask one of these:**
+
+1. "The client has a fixed budget for this case. Halfway through, you realize the analysis will take twice as long as planned. What do you do?"
+2. "Tell me about a time you juggled several clients or projects at once. How did you decide what came first?"
+
+{{< include ../_includes/_seat-b.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat C · Morgan, the Team & Mission Lead (click to open)
+
+**Here, you are:** Senior consultant who mentors new staff and handles most client communication.
+
+**Ask one of these:**
+
+1. "Explain the prior appropriation system to me like I'm a client who just moved here from Ohio and bought a property with a well."
+2. "You'll be supporting expert testimony. Tell me about a time someone challenged your numbers. How did you respond?"
+
+{{< include ../_includes/_seat-c.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat D · Dale, the Outside Stakeholder (pods of 5) (click to open)
+
+**Here, you are:** A downstream rancher whose ditch shares the river with your client's ranch.
+
+**Ask one of these:**
+
+1. "If your client moves that water to the city, what happens to the return flows my ditch depends on?"
+2. "You're being paid by the other side. Why would I trust your numbers?"
+
+{{< include ../_includes/_seat-d.qmd >}}
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Seat A+B · Riley-Pat, the Hiring Manager (pods of 3) (click to open)
+
+{{< include ../_includes/_seat-ab.qmd >}}
+:::
