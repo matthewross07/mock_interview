@@ -14,8 +14,6 @@ website:
     left:
       - href: index.qmd
         text: Instructions
-      - href: discussion.qmd
-        text: Prep Post
       - href: jobs.qmd
         text: Job Board
       - href: panel.qmd

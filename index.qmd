@@ -24,10 +24,9 @@ About 30–45 minutes.
 
 1. **Pick a job** on the [Job Board](jobs.qmd), plus a backup. It's fine if a podmate picks the same one.
 2. **Read the real posting** (linked on each job page). Find their top 3 must-haves, and jot down a real example of yours for each.
-3. **Post the [Pre-Class Discussion](discussion.qmd):** why this job, and could you apply now?
-4. **Practice a 60-second pitch** out loud. Use the toolkit below.
-5. **Write one question** you'd genuinely want to ask the panel.
-6. **Bring a charged device.**
+3. **Practice a 60-second pitch** out loud. Use the toolkit below.
+4. **Write one question** you'd genuinely want to ask the panel.
+5. **Bring a charged device.**
 
 ::: {.callout-important appearance="simple"}
 **On your own job's page, stop at "Know the employer."** The Interview room below that is for the panel. Not knowing the questions is part of the practice.

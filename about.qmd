@@ -14,7 +14,7 @@ Matthew R.V. Ross (Department of Ecosystem Science and Sustainability, Colorado 
 ## How AI was used
 
 - **Concept:** the first version of the activity (rotating pods, interviewer archetypes, a paperless setup) was brainstormed with **Google Gemini**.
-- **Building the site:** **Claude Opus 5.5 (High effort)** wrote the text on every page. That includes the instructions, the panel characters and mood cards, every interview question, the online options, and the pre-class discussion prompt. It also wrote the timer and mood-card code and the Quarto site configuration.
+- **Building the site:** **Claude Opus 5.5 (High effort)** wrote the text on every page. That includes the instructions, the panel characters and mood cards, every interview question, and the online options. It also wrote the timer and mood-card code and the Quarto site configuration.
 - **Job postings:** Claude searched public job boards for real Colorado postings that match the program's focus areas. It opened and checked each posting on the employer's page or a public listing, then paraphrased the duties and qualifications. Each job page links to the original.
 - **Revision:** the instructor reviewed drafts and asked for specific changes, including tone, round timing, the online format, and questions tied to each job. Claude made those changes.
 
