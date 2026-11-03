@@ -8,7 +8,7 @@ toc: false
 ## How this timer stays in sync
 Pressing **Start now** puts the start time in the page link. Anyone who opens that link (via the QR code, a video-call chat, or Canvas) sees the same phase and countdown, because the timer runs off each device's clock instead of a shared screen. Every pod rotates together without anyone calling time.
 
-- **Pods of mixed sizes?** Set the pod size to the largest pod. Smaller pods finish early and go on to the [Discussion](discussion.qmd).
+- **Pods of mixed sizes?** Set the pod size to the largest pod. Smaller pods finish early and can swap one more round of feedback.
 - **Sound:** each device has to turn on the chime once, because browsers block sound until you click something.
 :::
 
@@ -169,7 +169,7 @@ Pressing **Start now** puts the start time in the page link. Anyone who opens th
       $("t-status").textContent = "All rounds complete";
       $("t-phase").textContent = "Done 🎉";
       $("t-clock").textContent = "00:00";
-      $("t-do").innerHTML = 'Thank your panel. Next up: the <a href="discussion.html">Discussion</a>.';
+      $("t-do").textContent = "Thank your panel. Nice work.";
       $("t-fill").style.width = "100%";
       $("t-next").textContent = "";
       $("t-seats").innerHTML = "";

@@ -18,9 +18,10 @@ Same jobs, same panel, on your own schedule. Your pod gets **two weeks** to self
 
 1. **Browse the [Job Board](jobs.qmd)** and pick a **first choice** and a **backup**. It's fine if a podmate picks the same job.
 2. **Open the real posting** (each job page links to it). Find the 3 qualifications the employer seems to care about most. For each one, jot down a real example from your coursework, internship, research, or past jobs.
-3. **Draft a 60-second pitch** (see the formula below). Say it out loud at least once. Don't memorize it word for word.
-4. **Write one question to ask the panel.** Make it a question you'd actually want answered, not one designed to impress.
-5. **Bring a charged device.** During other people's rounds, you'll open *their* job page to find your panel questions.
+3. **Post the [Pre-Class Discussion](discussion.qmd)**: why you picked this job, and whether you could apply for it right now.
+4. **Draft a 60-second pitch** (see the formula below). Your discussion post is a good start on it. Say it out loud at least once. Don't memorize it word for word.
+5. **Write one question to ask the panel.** Make it a question you'd actually want answered, not one designed to impress.
+6. **Bring a charged device.** During other people's rounds, you'll open *their* job page to find your panel questions.
 
 When you prep, read your job page only down to **Know the employer**. The **Interview room** below that is for the panel. Not knowing the exact questions is part of the practice.
 
@@ -106,7 +107,3 @@ Be specific ("When you described cleaning the streamflow data, I believed you") 
 - **No illegal questions.** Real interviewers can't ask about age, marital or family status, pregnancy, religion, national origin, disability, or similar topics, and neither can you, even in character.
 - **Stay in character** until the debrief. Then fully step out of it.
 - **Stumbling is the point.** It's much better to freeze here than in a real interview.
-
-## After the activity
-
-Head to the [Discussion](discussion.qmd) page for the follow-up prompt.

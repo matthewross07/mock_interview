@@ -14,6 +14,8 @@ website:
     left:
       - href: index.qmd
         text: Instructions
+      - href: discussion.qmd
+        text: Pre-Class Discussion
       - href: jobs.qmd
         text: Job Board
       - href: panel.qmd
@@ -22,8 +24,6 @@ website:
         text: Timer
       - href: online.qmd
         text: Online Students
-      - href: discussion.qmd
-        text: Discussion
     right:
       - href: about.qmd
         text: About & AI Disclosure

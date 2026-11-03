@@ -15,7 +15,7 @@ This README is not rendered to the site.
 | `_includes/` | Shared pieces pulled into every job page: `_seat-a/b/c/d/ab.qmd` (character story, follow-up move, quirks) and `_mood.qmd` (mood-card button and list) |
 | `timer.qmd` | Synced round timer with a QR code and shareable link (syncs across devices, so it works for online pods too) |
 | `online.qmd` | Online pods: self-scheduled live call (2-week window) or async video-panel fallback |
-| `discussion.qmd` | Follow-up discussion prompt |
+| `discussion.qmd` | Pre-class discussion prompt (why this job / could you apply now?) |
 
 ## Common updates
 
@@ -58,4 +58,4 @@ Online pods have a 2-week window. The default is a self-scheduled live video cal
 1. **People → Groups:** create a group set of pods of ~4 (3–5 is fine). Number the members (1, 2, 3, …) in each group's description so students know their rotation number.
 2. **Discussions → new discussion → "This is a Group Discussion"** using that group set. Each pod then gets its own copy. In the discussion body, post the two-week window, the Day 1–14 dates for the async fallback, and a link to the Online Students page. Pods use this space to schedule, and async pods run their candidate threads here.
 3. **(Optional) Self-scheduled live pods:** Calendar → Scheduler → create an appointment group with 50-minute slots, and limit each slot to 4 users.
-4. The follow-up **Discussion** prompt is the same for everyone and can be a normal (non-group) discussion.
+4. The **Pre-Class Discussion** is the same for everyone and can be a normal (non-group) discussion. Set it due before the in-class session. For online students, set it due early in the two-week window.
