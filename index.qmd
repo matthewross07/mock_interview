@@ -15,7 +15,7 @@ Nothing to print. Everything is on this site, on your phone or laptop.
 
 ::: {.callout-tip}
 ## Online student?
-Same activity on your own schedule. Your pod has two weeks to find one hour together, and there's a video option if you can't. See [Online Students](online.qmd).
+Same activity, at a time you choose: join a pod time in Canvas (**People → Groups**), then meet by video. See [Online Students](online.qmd).
 :::
 
 ## Before class

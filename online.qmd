@@ -1,36 +1,43 @@
 ---
 title: "Online Students"
-subtitle: "Same jobs, same panel characters, same feedback, on your own schedule. You have two weeks."
+subtitle: "Same jobs, same panel characters, same feedback. You pick the time."
 ---
 
-You'll be in a **pod of about 4 classmates** (usually 4, sometimes 3 or 5), set up as a group in Canvas. Your pod has **two weeks** to finish. The dates are in Canvas.
+```{=html}
+<div class="steps">
+  <div class="step"><div class="num">1</div><h3>Join a pod time</h3><p>In Canvas, go to <b>People → Groups</b> and join a pod whose time you can make. Each pod holds up to 4 people.</p></div>
+  <div class="step"><div class="num">2</div><h3>Prep</h3><p>Do the same <a href="index.html#before-class">before-class prep</a> as everyone else, before your pod meets.</p></div>
+  <div class="step"><div class="num">3</div><h3>Meet for ~50 minutes</h3><p>Run the activity with your pod on a video call at your pod's time.</p></div>
+</div>
+```
 
-Start with the same [before-class prep](index.qmd#before-class) as everyone else, **before your pod meets**. Then pick the option your pod can make work. In both, panelists get their questions from the **Interview room** on the candidate's job page (see [Meet the Panel](panel.qmd)).
+::: {.callout-important appearance="simple"}
+**Can't make any of the pod times?** Message your instructor by the sign-up deadline in Canvas. You'll be placed in a pod that does the activity asynchronously by video (Option 2 below).
+:::
 
 ::: {.panel-tabset}
 
-## Option 1: Self-scheduled live pod (recommended)
+## Option 1: Live pod (most students)
 
-Your pod finds **one ~50-minute block** sometime in the two-week window and runs the full activity on a video call. It's the same activity the in-person class does, so it's the closest thing to a real panel interview.
+### Step 1: Join a pod
 
-### Step 1: Find a time (first few days)
+- In Canvas, open **People → Groups**, find the mock interview pods, and **join one whose time you can make**. The day, time, and time zone are in each pod's name.
+- Each pod holds **up to 4**. If one is full, pick another.
+- **Join early.** The best times fill up first. After the sign-up deadline, groups are locked.
 
-- Post your availability in your Canvas group as early as you can. A quick poll (for example, When2meet) works well.
-- If your instructor posts **Canvas Calendar → Scheduler** slots, you can sign up for one of those instead, up to 4 people per slot.
-- Aim to have a time booked **by the end of week 1**. That leaves room to reschedule if something comes up.
+### Step 2: Meet at your pod's time
 
-### Step 2: Meet (any time in the two weeks)
+1. **Meet on Zoom, Teams, or Google Meet.** Anyone in the pod can post a link in your Canvas group. Allow about 50 minutes, or 60 for a pod of 5.
+2. **Your number is your spot in the group roster, alphabetical by first name.** The first name alphabetically is Person 1, and so on. Use it in the [What's my seat?](index.qmd#who-sits-where-rotation) picker.
+3. **Choose a timekeeper.** They open the [Timer](timer.qmd), set the pod size, click **Start now**, and paste the link in the call chat. Everyone opens it.
+4. Run the rounds as described on the [Instructions](index.qmd) page. Panelists open the candidate's job page → **Interview room** → their own seat, and draw a new mood card each round.
+5. **Cameras on**, if you can. Video interviews are a normal part of hiring now.
 
-1. **Meet on Zoom, Teams, or Google Meet**. Allow about 50 minutes for a pod of 4, or 60 for a pod of 5.
-2. **Number off 1, 2, 3, …** and rename yourself with your number, for example `1 – Alex`.
-3. **Choose a timekeeper.** They open the [Timer](timer.qmd), set the pod size, click **Start now**, and paste the link in the call chat. Everyone opens it. The timer is time-zone-safe and shows the same countdown everywhere.
-4. Run the rounds as described on the [Instructions](index.qmd) page, using the rotation table for your pod size. Each panelist opens the candidate's job page → **Interview room** → their own seat in a separate window, and **draws a new mood card each round**.
-5. **Pod of 3?** That's fine. Use the **A+B Hiring Manager** seat.
-6. **Cameras on**, if you can. Video interviews are a normal part of hiring now.
+**Someone can't make it at the last minute?** Go ahead without them. A pod of 3 uses the **A+B Hiring Manager** seat. Your instructor will help the missing person find another pod.
 
-## Option 2: Async video panel (if your pod can't find a time)
+## Option 2: Async video pod (if no time works)
 
-Use this option if your pod truly can't find a shared hour. It runs entirely through your Canvas group discussion, and nobody needs to be online at the same time.
+This option is for students who can't make any of the pod times. Your instructor places you in a pod. Everything happens in that pod's Canvas group discussion, and nobody needs to be online at the same time.
 
 Each pod member gets **one thread** where they're the candidate. On every other thread, you're on the panel. This format matches the **one-way video interviews** many employers use for first-round screens.
 
@@ -39,26 +46,26 @@ Each pod member gets **one thread** where they're the candidate. On every other 
 | When | Candidate (your own thread) | Panelist (your podmates' threads) |
 |---|---|---|
 | **Days 1–3** | Start your thread, titled `Candidate: Your Name – Job Title`. Post the job link and a 2–3 sentence "cover note" on why you're applying. | Nothing yet. |
-| **Days 3–5** | **Don't read the questions until you're ready to record.** | Post **one question in character** for each podmate. Use your assigned Seat and a fresh mood card. |
+| **Days 3–5** | **Don't read the questions until you're ready to record.** | Post **one question in character** for each podmate. Use your assigned seat and a fresh mood card. |
 | **Days 5–9** | Record **one video, 8–10 minutes**: your 60-second pitch, then each panelist's question, then one question for the panel. | Nothing yet. |
 | **Days 9–11** | Nothing yet. | Watch the video. Reply with **one follow-up** in your seat's style, plus a short in-character answer to the candidate's question. |
-| **Days 11–14** | Answer each follow-up in a short reply, either a video of 2 minutes or less or about 150 words of text. | **Drop character** and post your three debrief notes: a hired-peer moment, a hedge or too-academic moment, and one thing to try. |
+| **Days 11–14** | Answer each follow-up in a short reply, either a video of 2 minutes or less or about 150 words of text. | **Drop character** and post your three debrief notes: a hired-peer moment, a hedge moment, and one thing to try. |
 
-**Which seat do I play?** Use the [rotation table](index.qmd#who-sits-where-rotation) for your pod size. Each round corresponds to one podmate's thread: Person 1's thread is Round 1, Person 2's thread is Round 2, and so on.
+**Which seat do I play?** Your number is your spot in the group roster, alphabetical by first name. Use the [What's my seat?](index.qmd#who-sits-where-rotation) picker. Each round corresponds to one podmate's thread: Person 1's thread is Round 1, and so on.
 
 **Posting your panel question**
 
 - A 30–60 second video clip is best. Text is fine too.
 - Introduce yourself in character, for example *"Hi, I'm Pat, chair of the search committee. Apologies, it's been a morning."*
-- Open the candidate's job page → **Interview room** → your seat, and pick one of that seat's questions. Draw a mood card from the same page and let it shape how you ask, without naming the card.
+- Open the candidate's job page → **Interview room** → your seat, and pick one of that seat's questions. Draw a mood card from the same page and let it shape how you ask.
 
 **Recording your candidate video**
 
 - Read the questions only when you're ready to record, and give yourself **about 30 seconds** to think before each answer.
-- Record in one take if you can, the way you would for a real one-way interview. One restart is fine, but don't polish it.
-- Use Canvas's built-in **Record/Upload Media** button in the reply editor, or record a Zoom meeting with just you.
+- Record in one take if you can, the way you would for a real one-way interview. One restart is fine.
+- Use Canvas's **Record/Upload Media** button in the reply editor, or record a Zoom meeting with just you.
 
-**If a panelist goes quiet:** don't wait for them. If a podmate hasn't posted by Day 5, pick one of their seat's questions from your job page's Interview room yourself, and say which seat it came from.
+**If a panelist goes quiet:** don't wait. If a podmate hasn't posted by Day 5, pick one of their seat's questions from your job page's Interview room yourself, and say which seat it came from.
 
 :::
 

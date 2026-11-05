@@ -14,7 +14,7 @@ This README is not rendered to the site.
 | `panel.qmd` | Meet the Panel: overview of the four characters and how panelists work |
 | `_includes/` | Shared pieces pulled into every job page: `_seat-a/b/c/d/ab.qmd` (character story, follow-up move, quirks) and `_mood.qmd` (mood-card button and list) |
 | `timer.qmd` | Synced round timer with a QR code and shareable link (syncs across devices, so it works for online pods too) |
-| `online.qmd` | Online pods: self-scheduled live call (2-week window) or async video-panel fallback |
+| `online.qmd` | Online students: join a time-slot pod in Canvas Groups for a live call, or an async video pod if no time works |
 
 ## Common updates
 
@@ -51,10 +51,14 @@ Stop `quarto preview` before publishing so the two renders don't collide.
 1. Before class, post the site link in Canvas and ask students to do the "Before class" prep.
 2. In class, open **Timer**, set the pod size, press **Start now**, and project it in full screen. Students can scan the QR code to get the same synced timer on their phones.
 
-## Canvas setup for online (async) students
+## Canvas setup for online students
 
-Online pods have a 2-week window. The default is a self-scheduled live video call; the fallback is an async video-panel thread (Days 1–14). In Canvas:
+Online students sign up for a pod **time** in Canvas. Each group's name is a meeting time, so joining a group is the same as booking the interview. Students who can't make any time go to an async video pod.
 
-1. **People → Groups:** create a group set of pods of ~4 (3–5 is fine). Number the members (1, 2, 3, …) in each group's description so students know their rotation number.
-2. **Discussions → new discussion → "This is a Group Discussion"** using that group set. Each pod then gets its own copy. In the discussion body, post the two-week window, the Day 1–14 dates for the async fallback, and a link to the Online Students page. Pods use this space to schedule, and async pods run their candidate threads here.
-3. **(Optional) Self-scheduled live pods:** Calendar → Scheduler → create an appointment group with 50-minute slots, and limit each slot to 4 users.
+1. **People → + Group Set** ("Mock Interview Pods"). Turn on **Allow self sign-up** and **Limit groups to 4 members**, and leave students unassigned.
+2. Create about **(online students ÷ 4) + 2** groups, and **rename each with a day, time, and time zone**, for example "Pod A – Tue Nov 18, 6:00 pm MT". Spread the times across weekdays, evenings, and a weekend, all inside the two-week window.
+3. **Announce** the sign-up deadline: "People → Groups → join a pod whose time you can make. If none work, message me by [date]."
+4. **After the deadline:** turn off self sign-up to lock the groups. Merge half-empty pods (3 is fine), and put students who couldn't make any time into an async pod together (rename it "Async video pod").
+5. **(For async pods)** Discussions → new discussion → **"This is a Group Discussion"** using the same group set. Post the Day 1–14 dates and a link to the Online Students page. Async pods run their candidate threads there.
+
+Rotation numbers are **alphabetical by first name** in each group's roster. The site tells students this, so you don't need to number them.
